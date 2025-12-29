@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adnify - AI 原生代码编辑器</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&family=Noto+Sans+SC:wght@400;700;900&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Libraries -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="loading">
+
+    <!-- Preloader -->
+    <div class="loader">
+        <div class="loader-text">SYSTEM INITIALIZING...</div>
+        <div class="loader-bar"><div class="bar-fill"></div></div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-circle"></div>
+
+    <!-- Noise Texture -->
+    <div class="noise"></div>
+
+    <!-- Navigation -->
+    <nav class="dock-nav">
+        <a href="#" class="brand">ADNIFY<span class="blink">_</span></a>
+        <div class="dock-links">
+            <a href="#features" data-magnetic data-i18n="nav_features">特性</a>
+            <a href="#workflow" data-magnetic data-i18n="nav_integration">工作流</a>
+            <a href="https://github.com/adnaan-worker/adnify" target="_blank" data-magnetic>GitHub</a>
+        </div>
+        <div class="nav-right">
+            <button id="lang-btn" class="lang-switch" data-magnetic>EN</button>
+            <a href="#download" class="cta-btn" data-magnetic>
+                <span data-i18n="nav_download">免费下载</span>
+            </a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-grid">
+                <div class="grid-line vertical"></div>
+                <div class="grid-line horizontal"></div>
+            </div>
+
+            <div class="hero-content">
+                <div class="hero-label" data-i18n="hero_label">AI-NATIVE CODE EDITOR</div>
+                
+                <div class="title-wrapper">
+                    <h1 class="hero-glitch block-reveal" data-i18n="hero_title_1" data-text="Connect AI">Connect AI</h1>
+                </div>
+                <div class="title-wrapper">
+                    <h1 class="hero-glitch outline block-reveal" data-i18n="hero_title_2" data-text="To Your Code">To Your Code</h1>
+                </div>
+                
+                <div class="hero-desc">
+                    <p data-i18n="hero_desc_1">Adnify 不只是编辑器。</p>
+                    <p data-i18n="hero_desc_2">它是你的 <span class="highlight">AI 编程伙伴</span>。</p>
+                </div>
+
+                <div class="scroll-indicator">
+                    <span data-i18n="scroll_tip">向下探索</span>
+                    <div class="line"></div>
+                </div>
+            </div>
+
+            <div class="visual-container">
+                <div class="lottie-bg">
+                    <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_m2c6d5.json" background="transparent" speed="0.5" style="width: 500px; height: 500px; opacity: 0.3" loop autoplay></lottie-player>
+                </div>
+
+                <div class="code-slice slice-back">
+                    <img src="images/editor.png" alt="Monaco 编辑器 + LSP 智能补全" class="slice-img">
+                </div>
+                
+                <div class="code-slice slice-front">
+                    <img src="images/chatpanel.png" alt="AI Agent 对话面板" class="slice-img">
+                    <div class="status-dot"></div>
+                    <div class="suggestion-box">
+                        <i class="fas fa-bolt"></i>
+                        <span data-i18n="analysis_done">启动 &lt;400ms</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Marquee Tape -->
+        <div class="tape-container">
+            <div class="tape" id="marquee-tape">
+                <span>开源免费 &bull; 22个AI工具 &bull; 多模型支持 &bull; 本地优先 &bull; 检查点回滚 &bull; </span>
+                <span>开源免费 &bull; 22个AI工具 &bull; 多模型支持 &bull; 本地优先 &bull; 检查点回滚 &bull; </span>
+            </div>
+        </div>
+
+        <!-- Section 2: Features -->
+        <section id="features" class="holo-section">
+            <div class="container">
+                <div class="holo-grid">
+                    <div class="holo-card" data-magnetic>
+                        <div class="card-border"></div>
+                        <div class="card-inner">
+                            <div class="holo-visual visual-matrix">
+                                <div class="matrix-grid"></div>
+                                <div class="matrix-scan"></div>
+                            </div>
+                            <div class="card-content">
+                                <div class="card-num">01</div>
+                                <h3 data-i18n="feat_1_title">AI Agent 深度集成</h3>
+                                <p data-i18n="feat_1_desc">三种工作模式：Chat 对话、Agent 执行、Plan 规划。22 个内置工具，从文件操作到终端执行，AI 全权掌控。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="holo-card" data-magnetic>
+                        <div class="card-border"></div>
+                        <div class="card-inner">
+                            <div class="holo-visual visual-pulse">
+                                <div class="pulse-ring r1"></div>
+                                <div class="pulse-ring r2"></div>
+                                <div class="pulse-ring r3"></div>
+                                <div class="pulse-core"><i class="fas fa-bolt"></i></div>
+                            </div>
+                            <div class="card-content">
+                                <div class="card-num">02</div>
+                                <h3 data-i18n="feat_2_title">秒级启动</h3>
+                                <p data-i18n="feat_2_desc">深度优化的 Electron + React 架构，冷启动 &lt;400ms。Monaco 编辑器内核，VS Code 同款体验。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="holo-card" data-magnetic>
+                        <div class="card-border"></div>
+                        <div class="card-inner">
+                            <div class="holo-visual visual-shield">
+                                <div class="shield-hex"></div>
+                                <div class="shield-lock"><i class="fas fa-lock"></i></div>
+                            </div>
+                            <div class="card-content">
+                                <div class="card-num">03</div>
+                                <h3 data-i18n="feat_3_title">本地优先 · 隐私安全</h3>
+                                <p data-i18n="feat_3_desc">代码索引本地存储，支持 Ollama 本地模型。工作区隔离、敏感路径保护、命令白名单、审计日志。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- More Features -->
+        <section class="more-features">
+            <div class="container">
+                <div class="section-glitch-header">
+                    <h2 class="glitch-text" data-text="核心能力">核心能力</h2>
+                    <div class="header-line"></div>
+                </div>
+                
+                <div class="features-list">
+                    <div class="feature-item">
+                        <div class="feature-icon"><i class="fas fa-brain"></i></div>
+                        <div class="feature-text">
+                            <h4>多 LLM 支持</h4>
+                            <p>OpenAI、Claude、Gemini、DeepSeek、Ollama，自由切换，自定义 API</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon"><i class="fas fa-history"></i></div>
+                        <div class="feature-text">
+                            <h4>检查点系统</h4>
+                            <p>AI 操作前自动创建检查点，一键回滚到任意消息，大胆尝试无后顾之忧</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon"><i class="fas fa-code-branch"></i></div>
+                        <div class="feature-text">
+                            <h4>对话分支</h4>
+                            <p>从任意消息创建分支，探索不同方案，可视化分支树</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon"><i class="fas fa-search"></i></div>
+                        <div class="feature-text">
+                            <h4>语义搜索</h4>
+                            <p>基于 AI Embedding 的代码库语义搜索，@codebase 一键启用</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon"><i class="fas fa-terminal"></i></div>
+                        <div class="feature-text">
+                            <h4>集成终端</h4>
+                            <p>xterm.js + node-pty，多 Shell 支持，WebGL 渲染，AI 一键修复报错</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon"><i class="fab fa-git-alt"></i></div>
+                        <div class="feature-text">
+                            <h4>Git 集成</h4>
+                            <p>完整的源代码管理，暂存、提交、Diff 视图、分支管理</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Workflow -->
+        <section id="workflow" class="neural-interface">
+            <div class="grid-floor"></div>
+            
+            <div class="container">
+                <div class="section-glitch-header">
+                    <h2 class="glitch-text" data-text="工作流">工作流</h2>
+                    <div class="header-line"></div>
+                </div>
+
+                <div class="interface-deck">
+                    <!-- HUD Elements -->
+                    <div class="hud-marker top-left"></div>
+                    <div class="hud-marker top-right"></div>
+                    <div class="hud-marker bottom-left"></div>
+                    <div class="hud-marker bottom-right"></div>
+
+                    <div class="deck-content">
+                        <!-- Main Panel -->
+                        <div class="cyber-panel main-panel">
+                            <div class="panel-header">
+                                <span class="panel-title">EDITOR // ACTIVE</span>
+                                <div class="panel-dots"><i></i><i></i><i></i></div>
+                            </div>
+                            <div class="panel-body crt-screen">
+                                <img src="images/main.png" alt="主界面全貌" class="panel-img">
+                                <div class="scanline"></div>
+                            </div>
+                        </div>
+
+                        <!-- Side Panel -->
+                        <div class="cyber-panel side-panel">
+                            <div class="panel-header">
+                                <span class="panel-title">AGENT // TOOLS</span>
+                            </div>
+                            <div class="panel-body crt-screen">
+                                <img src="images/tool.png" alt="AI 工具调用" class="panel-img">
+                                <div class="scanline delay"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AI Tools List -->
+                <div class="tools-showcase">
+                    <h3>22 个内置 AI 工具</h3>
+                    <div class="tools-grid">
+                        <div class="tool-tag">read_file</div>
+                        <div class="tool-tag">write_file</div>
+                        <div class="tool-tag">edit_file</div>
+                        <div class="tool-tag">search_files</div>
+                        <div class="tool-tag">codebase_search</div>
+                        <div class="tool-tag">run_command</div>
+                        <div class="tool-tag">go_to_definition</div>
+                        <div class="tool-tag">find_references</div>
+                        <div class="tool-tag">web_search</div>
+                        <div class="tool-tag">create_plan</div>
+                        <div class="tool-tag">...</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Context References -->
+        <section class="context-section">
+            <div class="container">
+                <div class="section-glitch-header">
+                    <h2 class="glitch-text" data-text="智能上下文">智能上下文</h2>
+                    <div class="header-line"></div>
+                </div>
+                
+                <div class="context-grid">
+                    <div class="context-item">
+                        <code>@文件名</code>
+                        <span>引用文件到上下文</span>
+                    </div>
+                    <div class="context-item">
+                        <code>@codebase</code>
+                        <span>语义搜索代码库</span>
+                    </div>
+                    <div class="context-item">
+                        <code>@git</code>
+                        <span>引用 Git 变更</span>
+                    </div>
+                    <div class="context-item">
+                        <code>@terminal</code>
+                        <span>引用终端输出</span>
+                    </div>
+                    <div class="context-item">
+                        <code>@symbols</code>
+                        <span>引用当前文件符号</span>
+                    </div>
+                    <div class="context-item">
+                        <code>@web</code>
+                        <span>启用网络搜索</span>
+                    </div>
+                </div>
+
+                <div class="commands-showcase">
+                    <h4>斜杠命令</h4>
+                    <div class="commands-list">
+                        <span><code>/chat</code> 对话模式</span>
+                        <span><code>/agent</code> Agent 模式</span>
+                        <span><code>/plan</code> Plan 模式</span>
+                        <span><code>/clear</code> 清空对话</span>
+                        <span><code>/file</code> 添加文件</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tech Stack -->
+        <section class="tech-stack">
+            <div class="container">
+                <h3>技术栈</h3>
+                <div class="tech-grid">
+                    <div class="tech-item">
+                        <i class="fab fa-react"></i>
+                        <span>React 18</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fas fa-atom"></i>
+                        <span>Electron 33</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fab fa-js-square"></i>
+                        <span>TypeScript 5</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fas fa-code"></i>
+                        <span>Monaco Editor</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fas fa-terminal"></i>
+                        <span>xterm.js</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fas fa-database"></i>
+                        <span>Zustand</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Download CTA -->
+        <section class="singularity-cta" id="download">
+            <div class="vortex-container">
+                <div class="vortex-ring v1"></div>
+                <div class="vortex-ring v2"></div>
+                <div class="vortex-ring v3"></div>
+                <div class="vortex-core"></div>
+            </div>
+            
+            <div class="cta-content-wrapper">
+                <div class="terminal-mock">
+                    <span class="prompt">$</span>
+                    <span class="typing">git clone https://gitee.com/adnaan/adnify.git</span>
+                </div>
+                <h2 data-i18n="cta_ready">开源免费，立即体验</h2>
+                <p class="cta-subtitle">MIT License · 完全开源 · 无需注册</p>
+                <a href="https://github.com/adnaan-worker/adnify/releases" target="_blank" class="mega-btn" data-magnetic>
+                    <span class="btn-glitch" data-text="下载最新版">下载最新版</span>
+                    <div class="btn-bg"></div>
+                </a>
+                <div class="os-icons">
+                    <i class="fab fa-windows" title="Windows"></i>
+                    <i class="fab fa-apple" title="macOS"></i>
+                    <i class="fab fa-linux" title="Linux"></i>
+                </div>
+                <div class="download-links">
+                    <a href="https://github.com/adnaan-worker/adnify" target="_blank">GitHub</a>
+                    <span>·</span>
+                    <a href="https://gitee.com/adnaan/adnify" target="_blank">Gitee 镜像</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer: System Status Bar -->
+        <footer class="system-bar">
+            <div class="bar-left">
+                <div class="sys-item brand-item">ADNIFY v1.0</div>
+                <div class="sys-item"><span class="led green"></span> MIT LICENSE</div>
+            </div>
+            
+            <div class="bar-center">
+                <div class="author-info">
+                    <span>Made by <strong>adnaan</strong></span>
+                    <a href="mailto:adnaan.worker@gmail.com">adnaan.worker@gmail.com</a>
+                </div>
+            </div>
+
+            <div class="bar-right">
+                <a href="https://github.com/adnaan-worker/adnify" target="_blank" class="sys-link">GITHUB</a>
+                <a href="https://gitee.com/adnaan/adnify" target="_blank" class="sys-link">GITEE</a>
+                <div class="sys-item time">© 2025</div>
+            </div>
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
