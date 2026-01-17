@@ -111,6 +111,14 @@ function initScrollAnimations() {
           }
         }
 
+        // Handle feature progress dots
+        if (entry.target.classList.contains('feature-block')) {
+          const featureIndex = entry.target.dataset.feature;
+          if (featureIndex !== undefined) {
+            updateFeatureProgress(parseInt(featureIndex));
+          }
+        }
+
         // Handle contributor items staggered animation
         if (entry.target.classList.contains('contributors-grid')) {
           const items = entry.target.querySelectorAll('.contributor-item');
@@ -141,6 +149,14 @@ function initScrollAnimations() {
       }
     });
   }, 100);
+}
+
+// Update feature progress dots
+function updateFeatureProgress(index) {
+  const dots = document.querySelectorAll('.feature-progress-dot');
+  dots.forEach((dot, i) => {
+    dot.classList.toggle('active', i <= index);
+  });
 }
 
 // ========================================

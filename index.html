@@ -207,8 +207,30 @@
 
         <!-- Features - Apple Large Text Style -->
         <section id="features" class="features-section">
-            <div class="container">
-                <div class="feature-block">
+            <!-- 左侧进度指示器 -->
+            <div class="feature-progress">
+                <div class="feature-progress-dot active"></div>
+                <div class="feature-progress-dot"></div>
+                <div class="feature-progress-dot"></div>
+            </div>
+
+            <!-- 右侧装饰光晕 -->
+            <div class="feature-decoration"></div>
+            <div class="feature-decoration feature-decoration-2"></div>
+
+            <div class="features-container">
+                <div class="feature-block" data-feature="0">
+                    <!-- 左侧浮动图标 -->
+                    <div class="feature-icon-float">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 2a2 2 0 0 1 2 2c0 .74-.4 1.39-1 1.73V7h1a7 7 0 0 1 7 7h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-1H2a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h1a7 7 0 0 1 7-7h1V5.73c-.6-.34-1-.99-1-1.73a2 2 0 0 1 2-2z"/>
+                            <circle cx="7.5" cy="14.5" r="1.5"/>
+                            <circle cx="16.5" cy="14.5" r="1.5"/>
+                        </svg>
+                    </div>
+                    <!-- 右侧背景数字 -->
+                    <div class="feature-number-bg">01</div>
+
                     <p class="feature-eyebrow">AI 深度集成</p>
                     <h2 class="feature-headline">
                         不只是补全代码。<br>
@@ -220,8 +242,16 @@
                         像一个真正的编程伙伴一样工作。
                     </p>
                 </div>
-                
-                <div class="feature-block">
+
+                <div class="feature-block" data-feature="1">
+                    <div class="feature-icon-float">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="12" r="10"/>
+                            <polyline points="12 6 12 12 16 14"/>
+                        </svg>
+                    </div>
+                    <div class="feature-number-bg">02</div>
+
                     <p class="feature-eyebrow">极致性能</p>
                     <h2 class="feature-headline">
                         快，是一种尊重。<br>
@@ -232,8 +262,15 @@
                         VS Code 同款体验，但更轻、更快、更专注于 AI。
                     </p>
                 </div>
-                
-                <div class="feature-block">
+
+                <div class="feature-block" data-feature="2">
+                    <div class="feature-icon-float">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                        </svg>
+                    </div>
+                    <div class="feature-number-bg">03</div>
+
                     <p class="feature-eyebrow">隐私安全</p>
                     <h2 class="feature-headline">
                         你的代码，你做主。<br>
