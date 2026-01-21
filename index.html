@@ -1,702 +1,452 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adnify - AI 原生代码编辑器</title>
-    <link rel="icon" type="image/svg+xml" href="favicon.svg">
-    
-    <!-- Fonts - Inter (closest to Apple's SF Pro) -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    
-    <!-- Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
-    <link rel="stylesheet" href="assets/css/styles.css">
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+        />
+        <title>Adnify - The Future of AI Coding</title>
+        <link rel="stylesheet" href="assets/css/apple.css" />
+    </head>
+    <body>
+        <!-- Background Ambient Aurora -->
+        <div class="aurora-bg">
+            <div class="aurora-blob blob-1"></div>
+            <div class="aurora-blob blob-2"></div>
+            <div class="aurora-blob blob-3"></div>
+        </div>
 
-    <!-- Navigation - Apple Style Minimal -->
-    <nav class="nav">
-        <div class="nav-container">
-            <a href="#" class="nav-logo">Adnify</a>
-            
-            <div class="nav-links">
-                <a href="#features" class="nav-link">功能</a>
-                <a href="#bento" class="nav-link">特性</a>
-                <a href="#download" class="nav-link">下载</a>
-            </div>
-            
-            <div class="nav-actions">
-                <a href="https://github.com/nicepkg/adnify" target="_blank" class="nav-link">
-                    <i class="fab fa-github"></i>
+        <!-- Navigation -->
+        <nav class="nav">
+            <div class="container nav-container">
+                <a href="#" class="logo">
+                    <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="white"
+                    >
+                        <path
+                            d="M12 2L2 7l10 5 10-5-10-5zm0 9l2.5-1.25L12 8.5l-2.5 1.25L12 11zm0 2.5l-5-2.5-5 2.5L12 22l10-8.5-5-2.5-5 2.5z"
+                        />
+                    </svg>
+                    Adnify
                 </a>
-                <a href="#download" class="btn-nav">下载</a>
+                <div class="nav-links">
+                    <a href="#features">Features</a>
+                    <a href="#performance">Performance</a>
+                    <a href="#download">Download</a>
+                    <a href="https://github.com/nicepkg/adnify" target="_blank"
+                        >GitHub</a
+                    >
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
 
-    <main>
-        
-        <!-- Hero Section - Apple Centered Style -->
+        <!-- Hero Section -->
         <section class="hero">
-            <div class="hero-content">
-                <h1 class="hero-title">
-                    AI 原生<br>代码编辑器
+            <div class="container">
+                <div class="badge">AI-Native Editor</div>
+                <h1>
+                    Code at the Speed<br />
+                    of <span class="text-gradient-brand">Thought.</span>
                 </h1>
-                <p class="hero-subtitle">
-                    让 AI 成为你的<span class="gradient-text">编程伙伴</span>
+                <p>
+                    Adnify integrates advanced AI agents directly into your
+                    keystrokes.<br />
+                    Built with Rust. Local-first privacy. Zero latency.
                 </p>
-                <p class="hero-description">
-                    深度集成 AI 能力，22+ 内置工具，多模型支持，本地优先架构
+
+                <div class="btn-group">
+                    <a href="#download" class="btn btn-primary">Download Now</a>
+                    <a
+                        href="https://github.com/nicepkg/adnify"
+                        target="_blank"
+                        class="btn btn-secondary"
+                        >View Source</a
+                    >
+                </div>
+
+                <!-- 3D Interface Simulation -->
+                <div class="hero-visual">
+                    <div class="interface-container">
+                        <div class="editor-header">
+                            <div class="dot dot-r"></div>
+                            <div class="dot dot-y"></div>
+                            <div class="dot dot-g"></div>
+                        </div>
+                        <div class="editor-content">
+                            <div class="line">
+                                <span class="token-k">import</span>
+                                <span class="token-f">{ Agent }</span>
+                                <span class="token-k">from</span>
+                                <span class="token-s">'@adnify/core'</span>;
+                            </div>
+                            <div class="line"><br /></div>
+                            <div class="line">
+                                <span class="token-c"
+                                    >// Initialize AI Context</span
+                                >
+                            </div>
+                            <div class="line">
+                                <span class="token-k">const</span>
+                                <span class="token-f">developer</span> =
+                                <span class="token-k">await</span>
+                                Agent.<span class="token-f">connect</span>({
+                            </div>
+                            <div class="line">
+                                &nbsp;&nbsp;mode:
+                                <span class="token-s">'deep-focus'</span>,
+                            </div>
+                            <div class="line">
+                                &nbsp;&nbsp;privacy:
+                                <span class="token-k">true</span>
+                            </div>
+                            <div class="line">});</div>
+                            <div class="line"><br /></div>
+                            <div class="line">
+                                <span class="token-c"
+                                    >// Adnify predicts your next move...</span
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Infinite Marquee -->
+        <section class="marquee-section">
+            <div class="marquee-track">
+                <div class="marquee-item">Typescript</div>
+                <div class="marquee-item">Rust</div>
+                <div class="marquee-item">Python</div>
+                <div class="marquee-item">Go</div>
+                <div class="marquee-item">React</div>
+                <div class="marquee-item">Vue</div>
+                <div class="marquee-item">Svelte</div>
+                <div class="marquee-item">Node.js</div>
+                <div class="marquee-item">Deno</div>
+                <div class="marquee-item">Bun</div>
+                <!-- Duplicate for seamless loop -->
+                <div class="marquee-item">Typescript</div>
+                <div class="marquee-item">Rust</div>
+                <div class="marquee-item">Python</div>
+                <div class="marquee-item">Go</div>
+                <div class="marquee-item">React</div>
+                <div class="marquee-item">Vue</div>
+                <div class="marquee-item">Svelte</div>
+                <div class="marquee-item">Node.js</div>
+                <div class="marquee-item">Deno</div>
+                <div class="marquee-item">Bun</div>
+            </div>
+        </section>
+
+        <!-- Sticky Scrollytelling Section -->
+        <section class="sticky-scroll-section" id="features">
+            <div class="container sticky-container">
+                <div class="sticky-content">
+                    <div class="feature-step" data-index="0">
+                        <h3>Deep Context Awareness</h3>
+                        <p>
+                            Adnify doesn't just read the current file. It
+                            indexes your entire repository locally,
+                            understanding the connections between components,
+                            types, and logic flow to provide suggestions that
+                            actually compile.
+                        </p>
+                    </div>
+                    <div class="feature-step" data-index="1">
+                        <h3>Privacy by Default</h3>
+                        <p>
+                            Your code is your intellectual property. Adnify runs
+                            local LLMs via Ollama integration, ensuring
+                            sensitive logic never leaves your machine unless you
+                            explicitly choose a cloud provider.
+                        </p>
+                    </div>
+                    <div class="feature-step" data-index="2">
+                        <h3>Blazing Fast</h3>
+                        <p>
+                            Built on a Rust core, the editor starts in under
+                            400ms. Text rendering is GPU-accelerated, providing
+                            a steady 120fps experience even when browsing 50MB
+                            log files.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="sticky-visuals">
+                    <!-- Visual 1 -->
+                    <div class="visual-card active" id="visual-0">
+                        <div class="visual-icon">🧠</div>
+                        <h4>Whole Repo Context</h4>
+                    </div>
+                    <!-- Visual 2 -->
+                    <div class="visual-card" id="visual-1">
+                        <div class="visual-icon">🔒</div>
+                        <h4>Local-First Security</h4>
+                    </div>
+                    <!-- Visual 3 -->
+                    <div class="visual-card" id="visual-2">
+                        <div class="visual-icon">⚡</div>
+                        <h4>Rust Performance</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats-section">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-value">22+</span>
+                        <span class="stat-label">Built-in Tools</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value">400ms</span>
+                        <span class="stat-label">Launch Time</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value">100%</span>
+                        <span class="stat-label">Local Privacy</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value">Zero</span>
+                        <span class="stat-label">Config Required</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Spotlight Bento Grid -->
+        <section class="bento-section">
+            <div class="container">
+                <h2 class="section-title">Everything you need.</h2>
+                <div class="spotlight-grid">
+                    <div class="spotlight-card grid-span-2">
+                        <div class="spotlight-card-content">
+                            <div class="spotlight-icon">
+                                <svg
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                >
+                                    <path
+                                        d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"
+                                    />
+                                </svg>
+                            </div>
+                            <h4>AI Agents</h4>
+                            <p>
+                                Autonomous agents that can refactor files, fix
+                                bugs, and generate tests while you sleep.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="spotlight-card">
+                        <div class="spotlight-card-content">
+                            <div class="spotlight-icon">
+                                <svg
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                >
+                                    <path d="M18 8h1a4 4 0 0 1 0 8h-1" />
+                                    <path d="M2 8h16v9a4 4 0 0 1-4 4H2" />
+                                    <line x1="6" y1="1" x2="6" y2="4" />
+                                    <line x1="10" y1="1" x2="10" y2="4" />
+                                    <line x1="14" y1="1" x2="14" y2="4" />
+                                </svg>
+                            </div>
+                            <h4>Git Integration</h4>
+                            <p>
+                                Visual diffs, smart merge conflict resolution.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="spotlight-card">
+                        <div class="spotlight-card-content">
+                            <div class="spotlight-icon">
+                                <svg
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                >
+                                    <rect
+                                        x="4"
+                                        y="4"
+                                        width="16"
+                                        height="16"
+                                        rx="2"
+                                        ry="2"
+                                    />
+                                    <rect x="9" y="9" width="6" height="6" />
+                                    <line x1="9" y1="1" x2="9" y2="4" />
+                                    <line x1="15" y1="1" x2="15" y2="4" />
+                                    <line x1="9" y1="20" x2="9" y2="23" />
+                                    <line x1="15" y1="20" x2="15" y2="23" />
+                                    <line x1="20" y1="9" x2="23" y2="9" />
+                                    <line x1="20" y1="14" x2="23" y2="14" />
+                                    <line x1="1" y1="9" x2="4" y2="9" />
+                                    <line x1="1" y1="14" x2="4" y2="14" />
+                                </svg>
+                            </div>
+                            <h4>Plugin System</h4>
+                            <p>Compatible with VS Code extensions API.</p>
+                        </div>
+                    </div>
+                    <div class="spotlight-card grid-span-2">
+                        <div class="spotlight-card-content">
+                            <div class="spotlight-icon">
+                                <svg
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                >
+                                    <circle cx="12" cy="12" r="10" />
+                                    <line x1="2" y1="12" x2="22" y2="12" />
+                                    <path
+                                        d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"
+                                    />
+                                </svg>
+                            </div>
+                            <h4>Cross Platform</h4>
+                            <p>
+                                Consistent experience across macOS, Windows, and
+                                Linux. Sync your settings instantly via Cloud.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section" id="download">
+            <div class="cta-bg-gradient"></div>
+            <div class="container cta-content">
+                <div class="badge">Open Source</div>
+                <h2 class="section-title">Ready to upgrade your flow?</h2>
+                <p
+                    style="
+                        color: var(--text-secondary);
+                        max-width: 500px;
+                        margin: 0 auto;
+                    "
+                >
+                    Join thousands of developers building the future with
+                    Adnify.
                 </p>
-                <div class="hero-actions">
-                    <a href="#download" class="btn-primary">
-                        免费下载
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
-                            <polyline points="7 10 12 15 17 10"/>
-                            <line x1="12" y1="15" x2="12" y2="3"/>
+
+                <div class="platform-grid">
+                    <a
+                        href="https://github.com/nicepkg/adnify/releases"
+                        class="platform-card"
+                    >
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M12 2L2 7l10 5 10-5-10-5zm0 9l2.5-1.25L12 8.5l-2.5 1.25L12 11zm0 2.5l-5-2.5-5 2.5L12 22l10-8.5-5-2.5-5 2.5z"
+                            />
                         </svg>
+                        <h3>macOS</h3>
+                        <p style="font-size: 13px; color: #666">
+                            Universal Binary
+                        </p>
                     </a>
-                    <a href="https://github.com/nicepkg/adnify" target="_blank" class="btn-secondary">
-                        查看源码
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
-                            <polyline points="15 3 21 3 21 9"/>
-                            <line x1="10" y1="14" x2="21" y2="3"/>
+                    <a
+                        href="https://github.com/nicepkg/adnify/releases"
+                        class="platform-card"
+                    >
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M3 3h8v8H3V3zm10 0h8v8h-8V3zM3 13h8v8H3v-8zm10 0h8v8h-8v-8z"
+                            />
                         </svg>
+                        <h3>Windows</h3>
+                        <p style="font-size: 13px; color: #666">
+                            MSI / Executable
+                        </p>
+                    </a>
+                    <a
+                        href="https://github.com/nicepkg/adnify/releases"
+                        class="platform-card"
+                    >
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M12 2a10 10 0 0 1 10 10c0 5.52-4.48 10-10 10S2 17.52 2 12 6.48 2 12 2zm0 2a8 8 0 1 0 0 16 8 8 0 0 0 0-16z"
+                            />
+                        </svg>
+                        <h3>Linux</h3>
+                        <p style="font-size: 13px; color: #666">
+                            AppImage / Deb
+                        </p>
                     </a>
                 </div>
             </div>
-            
-            <!-- Product Screenshot - Apple Style Large Visual -->
-            <div class="hero-visual">
-                <div class="product-window">
-                    <div class="window-header">
-                        <div class="window-controls">
-                            <span class="control close"></span>
-                            <span class="control minimize"></span>
-                            <span class="control maximize"></span>
-                        </div>
-                        <span class="window-title">Adnify</span>
-                    </div>
-                    <div class="window-content">
-                        <div class="editor-sidebar">
-                            <div class="sidebar-icon active"><i class="fas fa-file-code"></i></div>
-                            <div class="sidebar-icon"><i class="fas fa-search"></i></div>
-                            <div class="sidebar-icon"><i class="fas fa-code-branch"></i></div>
-                            <div class="sidebar-icon"><i class="fas fa-robot"></i></div>
-                            <div class="sidebar-spacer"></div>
-                            <div class="sidebar-icon"><i class="fas fa-cog"></i></div>
-                        </div>
-                        <!-- File Tree Panel -->
-                        <div class="file-tree">
-                            <div class="tree-header">EXPLORER</div>
-                            <div class="tree-folder open">
-                                <span class="folder-icon"><i class="fas fa-chevron-down"></i></span>
-                                <span class="folder-name">src</span>
-                            </div>
-                            <div class="tree-file active">
-                                <span class="file-icon ts"><i class="fas fa-file-code"></i></span>
-                                <span class="file-name">main.ts</span>
-                            </div>
-                            <div class="tree-file">
-                                <span class="file-icon ts"><i class="fas fa-file-code"></i></span>
-                                <span class="file-name">utils.ts</span>
-                            </div>
-                            <div class="tree-file">
-                                <span class="file-icon json"><i class="fas fa-file-alt"></i></span>
-                                <span class="file-name">config.json</span>
-                            </div>
-                            <div class="tree-folder">
-                                <span class="folder-icon"><i class="fas fa-chevron-right"></i></span>
-                                <span class="folder-name">components</span>
-                            </div>
-                        </div>
-                        <div class="editor-main">
-                            <div class="editor-tabs">
-                                <span class="tab active"><i class="fas fa-file-code tab-icon"></i>main.ts<span class="tab-close">&times;</span></span>
-                                <span class="tab"><i class="fas fa-file-code tab-icon"></i>utils.ts<span class="tab-close">&times;</span></span>
-                            </div>
-                            <div class="editor-code">
-                                <div class="code-line"><span class="ln">1</span><span class="kw">import</span> { <span class="var">AIEngine</span> } <span class="kw">from</span> <span class="str">'@adnify/core'</span>;</div>
-                                <div class="code-line"><span class="ln">2</span></div>
-                                <div class="code-line"><span class="ln">3</span><span class="kw">const</span> <span class="var">editor</span> = <span class="kw">new</span> <span class="fn">Adnify</span>({</div>
-                                <div class="code-line"><span class="ln">4</span>  <span class="prop">ai</span>: <span class="bool">true</span>,</div>
-                                <div class="code-line"><span class="ln">5</span>  <span class="prop">model</span>: <span class="str">"claude-3"</span>,</div>
-                                <div class="code-line"><span class="ln">6</span>  <span class="prop">tools</span>: <span class="num">22</span>,</div>
-                                <div class="code-line"><span class="ln">7</span>  <span class="prop">theme</span>: <span class="str">"dark"</span>,</div>
-                                <div class="code-line"><span class="ln">8</span>});</div>
-                                <div class="code-line"><span class="ln">9</span></div>
-                                <div class="code-line highlight"><span class="ln">10</span><span class="var">editor</span>.<span class="fn">analyze</span>()<span class="cursor"></span></div>
-                                <div class="code-line"><span class="ln">11</span></div>
-                                <div class="code-line"><span class="ln">12</span><span class="cmt">// AI 正在分析你的代码...</span></div>
-                            </div>
-                            <div class="editor-minimap">
-                                <div class="minimap-line"></div>
-                                <div class="minimap-line short"></div>
-                                <div class="minimap-line"></div>
-                                <div class="minimap-line highlight"></div>
-                                <div class="minimap-line short"></div>
-                                <div class="minimap-line"></div>
-                                <div class="minimap-line short"></div>
-                            </div>
-                        </div>
-                        <div class="editor-panel">
-                            <div class="panel-header">
-                                <span class="panel-title"><i class="fas fa-robot"></i> AI Assistant</span>
-                                <span class="panel-status online"></span>
-                            </div>
-                            <div class="panel-content">
-                                <div class="ai-message">
-                                    <div class="ai-avatar">
-                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                            <path d="M12 2a2 2 0 0 1 2 2c0 .74-.4 1.39-1 1.73V7h1a7 7 0 0 1 7 7h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-1H2a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h1a7 7 0 0 1 7-7h1V5.73c-.6-.34-1-.99-1-1.73a2 2 0 0 1 2-2z"/>
-                                            <circle cx="7.5" cy="14.5" r="1.5"/>
-                                            <circle cx="16.5" cy="14.5" r="1.5"/>
-                                        </svg>
-                                    </div>
-                                    <div class="ai-bubble">
-                                        <div class="ai-text">我发现了一个可以优化的地方，要我帮你重构吗？</div>
-                                        <div class="ai-actions">
-                                            <button class="ai-btn primary">应用建议</button>
-                                            <button class="ai-btn">查看详情</button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ai-input">
-                                    <input type="text" placeholder="输入你的问题..." />
-                                    <button class="ai-send"><i class="fas fa-paper-plane"></i></button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Window Reflection -->
-                    <div class="window-reflection"></div>
-                </div>
-            </div>
         </section>
 
-        <!-- Stats Bar - Apple Style -->
-        <section class="stats-bar">
-            <div class="stats-container">
-                <div class="stat-item">
-                    <span class="stat-number">22+</span>
-                    <span class="stat-label">AI 工具</span>
-                </div>
-                <div class="stat-divider"></div>
-                <div class="stat-item">
-                    <span class="stat-number">&lt;400ms</span>
-                    <span class="stat-label">启动速度</span>
-                </div>
-                <div class="stat-divider"></div>
-                <div class="stat-item">
-                    <span class="stat-number">5+</span>
-                    <span class="stat-label">LLM 支持</span>
-                </div>
-                <div class="stat-divider"></div>
-                <div class="stat-item">
-                    <span class="stat-number">100%</span>
-                    <span class="stat-label">本地优先</span>
-                </div>
-            </div>
-        </section>
-
-        <!-- Features - Apple Large Text Style -->
-        <section id="features" class="features-section">
-            <!-- 左侧进度指示器 -->
-            <div class="feature-progress">
-                <div class="feature-progress-dot active"></div>
-                <div class="feature-progress-dot"></div>
-                <div class="feature-progress-dot"></div>
-            </div>
-
-            <!-- 右侧装饰光晕 -->
-            <div class="feature-decoration"></div>
-            <div class="feature-decoration feature-decoration-2"></div>
-
-            <div class="features-container">
-                <div class="feature-block" data-feature="0">
-                    <!-- 左侧浮动图标 -->
-                    <div class="feature-icon-float">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                            <path d="M12 2a2 2 0 0 1 2 2c0 .74-.4 1.39-1 1.73V7h1a7 7 0 0 1 7 7h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-1H2a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h1a7 7 0 0 1 7-7h1V5.73c-.6-.34-1-.99-1-1.73a2 2 0 0 1 2-2z"/>
-                            <circle cx="7.5" cy="14.5" r="1.5"/>
-                            <circle cx="16.5" cy="14.5" r="1.5"/>
-                        </svg>
-                    </div>
-                    <!-- 右侧背景数字 -->
-                    <div class="feature-number-bg">01</div>
-
-                    <p class="feature-eyebrow">AI 深度集成</p>
-                    <h2 class="feature-headline">
-                        不只是补全代码。<br>
-                        <span class="text-muted">是真正理解你的意图。</span>
-                    </h2>
-                    <p class="feature-body">
-                        三种工作模式：Chat 对话、Agent 执行、Plan 规划。
-                        AI 可以读取文件、执行命令、搜索代码、操作 Git，
-                        像一个真正的编程伙伴一样工作。
-                    </p>
-                </div>
-
-                <div class="feature-block" data-feature="1">
-                    <div class="feature-icon-float">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                            <circle cx="12" cy="12" r="10"/>
-                            <polyline points="12 6 12 12 16 14"/>
-                        </svg>
-                    </div>
-                    <div class="feature-number-bg">02</div>
-
-                    <p class="feature-eyebrow">极致性能</p>
-                    <h2 class="feature-headline">
-                        快，是一种尊重。<br>
-                        <span class="text-muted">冷启动不到 400 毫秒。</span>
-                    </h2>
-                    <p class="feature-body">
-                        基于 Electron + React 深度优化，Monaco 编辑器内核。
-                        VS Code 同款体验，但更轻、更快、更专注于 AI。
-                    </p>
-                </div>
-
-                <div class="feature-block" data-feature="2">
-                    <div class="feature-icon-float">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-                        </svg>
-                    </div>
-                    <div class="feature-number-bg">03</div>
-
-                    <p class="feature-eyebrow">隐私安全</p>
-                    <h2 class="feature-headline">
-                        你的代码，你做主。<br>
-                        <span class="text-muted">本地优先，数据不出门。</span>
-                    </h2>
-                    <p class="feature-body">
-                        支持 Ollama 本地模型，代码索引本地存储。
-                        工作区隔离、敏感路径保护、命令白名单、完整审计日志。
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Bento Grid - Apple Style -->
-        <section id="bento" class="bento-section">
+        <!-- Footer -->
+        <footer>
             <div class="container">
-                <div class="section-header">
-                    <p class="section-eyebrow">功能亮点</p>
-                    <h2 class="section-title">为 AI 时代而生</h2>
+                <div class="footer-grid">
+                    <div class="footer-logo">
+                        <h4>Adnify</h4>
+                        <p>
+                            The AI-native code editor designed to make you
+                            faster, smarter, and more efficient.
+                        </p>
+                    </div>
+                    <div class="footer-col">
+                        <h5>Product</h5>
+                        <ul>
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#download">Download</a></li>
+                            <li><a href="#">Changelog</a></li>
+                            <li><a href="#">Roadmap</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h5>Resources</h5>
+                        <ul>
+                            <li><a href="#">Documentation</a></li>
+                            <li><a href="#">API Reference</a></li>
+                            <li><a href="#">Community</a></li>
+                            <li><a href="#">GitHub</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h5>Legal</h5>
+                        <ul>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
                 </div>
-                
-                <div class="bento-grid">
-                    <!-- Large Card -->
-                    <div class="bento-card bento-large">
-                        <div class="bento-icon">
-                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                                <rect x="3" y="3" width="18" height="18" rx="2"/>
-                                <path d="M3 9h18"/>
-                                <path d="M9 21V9"/>
-                            </svg>
-                        </div>
-                        <h3 class="bento-title">多模型支持</h3>
-                        <p class="bento-desc">OpenAI、Claude、Gemini、DeepSeek、Ollama，自由切换，灵活适配不同场景</p>
-                        <div class="bento-visual">
-                            <div class="model-tags">
-                                <span class="model-tag">GPT-4</span>
-                                <span class="model-tag">Claude 3</span>
-                                <span class="model-tag">Gemini</span>
-                                <span class="model-tag">DeepSeek</span>
-                                <span class="model-tag">Ollama</span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- Medium Card -->
-                    <div class="bento-card bento-medium">
-                        <div class="bento-icon">
-                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                                <polyline points="16 18 22 12 16 6"/>
-                                <polyline points="8 6 2 12 8 18"/>
-                            </svg>
-                        </div>
-                        <h3 class="bento-title">22+ AI 工具</h3>
-                        <p class="bento-desc">文件操作、终端执行、代码搜索、Git 操作，AI 全权掌控</p>
-                        <!-- Visual: Tool Grid -->
-                        <div class="bento-visual tools-grid">
-                            <div class="tool-item"><i class="fas fa-file"></i></div>
-                            <div class="tool-item"><i class="fas fa-terminal"></i></div>
-                            <div class="tool-item"><i class="fas fa-search"></i></div>
-                            <div class="tool-item"><i class="fas fa-code-branch"></i></div>
-                            <div class="tool-item"><i class="fas fa-folder"></i></div>
-                            <div class="tool-item"><i class="fas fa-bug"></i></div>
-                            <div class="tool-item more">+16</div>
-                        </div>
-                    </div>
-                    
-                    <!-- Medium Card -->
-                    <div class="bento-card bento-medium">
-                        <div class="bento-icon">
-                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-                            </svg>
-                        </div>
-                        <h3 class="bento-title">检查点系统</h3>
-                        <p class="bento-desc">AI 操作前自动创建检查点，一键回滚，大胆尝试无后顾之忧</p>
-                        <!-- Visual: Timeline -->
-                        <div class="bento-visual checkpoint-timeline">
-                            <div class="checkpoint-line"></div>
-                            <div class="checkpoint-dot active" data-label="现在"></div>
-                            <div class="checkpoint-dot" data-label="v3"></div>
-                            <div class="checkpoint-dot" data-label="v2"></div>
-                            <div class="checkpoint-dot" data-label="v1"></div>
-                        </div>
-                    </div>
-                    
-                    <!-- Small Cards Row -->
-                    <div class="bento-card bento-small">
-                        <div class="bento-icon-small">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                                <circle cx="12" cy="12" r="10"/>
-                                <polyline points="12 6 12 12 16 14"/>
-                            </svg>
-                        </div>
-                        <span class="bento-label">秒级启动</span>
-                    </div>
-                    
-                    <div class="bento-card bento-small">
-                        <div class="bento-icon-small">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                                <path d="M6 3v12"/>
-                                <circle cx="18" cy="6" r="3"/>
-                                <circle cx="6" cy="18" r="3"/>
-                                <path d="M18 9a9 9 0 0 1-9 9"/>
-                            </svg>
-                        </div>
-                        <span class="bento-label">Git 集成</span>
-                    </div>
-                    
-                    <div class="bento-card bento-small">
-                        <div class="bento-icon-small">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                                <rect x="2" y="3" width="20" height="14" rx="2"/>
-                                <line x1="8" y1="21" x2="16" y2="21"/>
-                                <line x1="12" y1="17" x2="12" y2="21"/>
-                            </svg>
-                        </div>
-                        <span class="bento-label">跨平台</span>
-                    </div>
-                    
-                    <div class="bento-card bento-small">
-                        <div class="bento-icon-small">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                                <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/>
-                                <path d="M2 12h20"/>
-                                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
-                            </svg>
-                        </div>
-                        <span class="bento-label">开源免费</span>
+                <div class="footer-bottom">
+                    <span>© 2024 Adnify Inc. All rights reserved.</span>
+                    <div class="social-links">
+                        <!-- Add icons if needed -->
                     </div>
                 </div>
             </div>
-        </section>
+        </footer>
 
-        <!-- Contributors Section - Apple Style -->
-        <section id="contributors" class="contributors-section">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">开源共建</h2>
-                    <p class="section-subtitle">感谢每一位贡献者的付出</p>
-                </div>
-                
-                <div class="contributors-showcase">
-                    <!-- Core Contributors -->
-                    <div class="contributors-core">
-                        <div class="contributor-card contributor-lead">
-                            <div class="contributor-avatar">
-                                <img src="https://avatars.githubusercontent.com/u/35005637?v=4" alt="adnaan" loading="lazy">
-                                <div class="contributor-glow"></div>
-                            </div>
-                            <div class="contributor-info">
-                                <h4 class="contributor-name">adnaan</h4>
-                                <span class="contributor-role">Creator & Lead</span>
-                            </div>
-                            <div class="contributor-stats">
-                                <span class="stat"><i class="fas fa-code-commit"></i> 500+</span>
-                                <span class="stat"><i class="fas fa-star"></i> Core</span>
-                            </div>
-                            <a href="https://github.com/ADoNotExist" target="_blank" class="contributor-link">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>
-                    </div>
-                    
-                    <!-- Contributors Grid -->
-                    <div class="contributors-grid">
-                        <div class="contributor-item" data-delay="0">
-                            <img src="https://avatars.githubusercontent.com/u/1?v=4" alt="Contributor" loading="lazy">
-                            <div class="contributor-tooltip">@contributor1<br><span>42 commits</span></div>
-                        </div>
-                        <div class="contributor-item" data-delay="1">
-                            <img src="https://avatars.githubusercontent.com/u/2?v=4" alt="Contributor" loading="lazy">
-                            <div class="contributor-tooltip">@contributor2<br><span>38 commits</span></div>
-                        </div>
-                        <div class="contributor-item" data-delay="2">
-                            <img src="https://avatars.githubusercontent.com/u/3?v=4" alt="Contributor" loading="lazy">
-                            <div class="contributor-tooltip">@contributor3<br><span>35 commits</span></div>
-                        </div>
-                        <div class="contributor-item" data-delay="3">
-                            <img src="https://avatars.githubusercontent.com/u/4?v=4" alt="Contributor" loading="lazy">
-                            <div class="contributor-tooltip">@contributor4<br><span>28 commits</span></div>
-                        </div>
-                        <div class="contributor-item" data-delay="4">
-                            <img src="https://avatars.githubusercontent.com/u/5?v=4" alt="Contributor" loading="lazy">
-                            <div class="contributor-tooltip">@contributor5<br><span>24 commits</span></div>
-                        </div>
-                        <div class="contributor-item" data-delay="5">
-                            <img src="https://avatars.githubusercontent.com/u/6?v=4" alt="Contributor" loading="lazy">
-                            <div class="contributor-tooltip">@contributor6<br><span>21 commits</span></div>
-                        </div>
-                        <div class="contributor-item" data-delay="6">
-                            <img src="https://avatars.githubusercontent.com/u/7?v=4" alt="Contributor" loading="lazy">
-                            <div class="contributor-tooltip">@contributor7<br><span>18 commits</span></div>
-                        </div>
-                        <div class="contributor-item" data-delay="7">
-                            <img src="https://avatars.githubusercontent.com/u/8?v=4" alt="Contributor" loading="lazy">
-                            <div class="contributor-tooltip">@contributor8<br><span>15 commits</span></div>
-                        </div>
-                        <div class="contributor-item contributor-more">
-                            <span>+50</span>
-                            <div class="contributor-tooltip">查看全部贡献者</div>
-                        </div>
-                    </div>
-                    
-                    <!-- Contribution CTA -->
-                    <div class="contribute-cta">
-                        <p>想要参与贡献？</p>
-                        <a href="https://github.com/nicepkg/adnify" target="_blank" class="btn-contribute">
-                            <i class="fab fa-github"></i>
-                            加入我们
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Testimonials Section - Apple Style -->
-        <section id="testimonials" class="testimonials-section">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">用户心声</h2>
-                    <p class="section-subtitle">来自全球开发者的真实反馈</p>
-                </div>
-                
-                <div class="testimonials-wrapper">
-                    <!-- Testimonials Track - Auto Scrolling -->
-                    <div class="testimonials-track">
-                        <div class="testimonial-card">
-                            <div class="testimonial-content">
-                                <div class="testimonial-rating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </div>
-                                <p class="testimonial-text">"Adnify 彻底改变了我的编程方式。AI 助手就像一个经验丰富的同事，随时准备帮助我解决问题。"</p>
-                            </div>
-                            <div class="testimonial-author">
-                                <img src="https://i.pravatar.cc/100?img=1" alt="User" loading="lazy">
-                                <div class="author-info">
-                                    <h5>张明</h5>
-                                    <span>全栈工程师 · 字节跳动</span>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="testimonial-card">
-                            <div class="testimonial-content">
-                                <div class="testimonial-rating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </div>
-                                <p class="testimonial-text">"检查点系统太棒了！让我可以大胆尝试 AI 的建议，不用担心代码被搞乱。这是真正为开发者设计的工具。"</p>
-                            </div>
-                            <div class="testimonial-author">
-                                <img src="https://i.pravatar.cc/100?img=2" alt="User" loading="lazy">
-                                <div class="author-info">
-                                    <h5>Sarah Chen</h5>
-                                    <span>前端架构师 · Google</span>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="testimonial-card">
-                            <div class="testimonial-content">
-                                <div class="testimonial-rating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </div>
-                                <p class="testimonial-text">"作为独立开发者，Adnify 让我的效率提升了 3 倍。22 个内置工具覆盖了我日常开发的所有需求。"</p>
-                            </div>
-                            <div class="testimonial-author">
-                                <img src="https://i.pravatar.cc/100?img=3" alt="User" loading="lazy">
-                                <div class="author-info">
-                                    <h5>李伟</h5>
-                                    <span>独立开发者</span>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="testimonial-card">
-                            <div class="testimonial-content">
-                                <div class="testimonial-rating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                </div>
-                                <p class="testimonial-text">"多模型支持是杀手级功能。我可以根据不同任务选择最合适的 AI 模型，Claude 写文档，GPT-4 写代码。"</p>
-                            </div>
-                            <div class="testimonial-author">
-                                <img src="https://i.pravatar.cc/100?img=4" alt="User" loading="lazy">
-                                <div class="author-info">
-                                    <h5>Alex Wang</h5>
-                                    <span>技术总监 · 阿里巴巴</span>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="testimonial-card">
-                            <div class="testimonial-content">
-                                <div class="testimonial-rating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </div>
-                                <p class="testimonial-text">"本地优先的架构让我很放心，代码不会上传到云端。对于企业级项目来说，这点非常重要。"</p>
-                            </div>
-                            <div class="testimonial-author">
-                                <img src="https://i.pravatar.cc/100?img=5" alt="User" loading="lazy">
-                                <div class="author-info">
-                                    <h5>王芳</h5>
-                                    <span>安全工程师 · 腾讯</span>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="testimonial-card">
-                            <div class="testimonial-content">
-                                <div class="testimonial-rating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </div>
-                                <p class="testimonial-text">"开源免费还这么好用，简直不敢相信。UI 设计也很漂亮，用起来心情都好了。"</p>
-                            </div>
-                            <div class="testimonial-author">
-                                <img src="https://i.pravatar.cc/100?img=6" alt="User" loading="lazy">
-                                <div class="author-info">
-                                    <h5>刘洋</h5>
-                                    <span>学生开发者</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Scroll Indicator -->
-                <div class="testimonials-indicator">
-                    <span class="indicator-dot active"></span>
-                    <span class="indicator-dot"></span>
-                    <span class="indicator-dot"></span>
-                </div>
-            </div>
-        </section>
-
-        <!-- CTA Section - Apple Style -->
-        <section id="download" class="cta-section">
-            <div class="container">
-                <div class="cta-content">
-                    <h2 class="cta-title">
-                        准备好体验<br>
-                        <span class="gradient-text">AI 编程的未来</span>了吗？
-                    </h2>
-                    <p class="cta-subtitle">开源免费，支持 Windows、macOS、Linux</p>
-                    
-                    <div class="cta-actions">
-                        <a href="https://github.com/nicepkg/adnify/releases" target="_blank" class="btn-primary btn-large">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
-                                <polyline points="7 10 12 15 17 10"/>
-                                <line x1="12" y1="15" x2="12" y2="3"/>
-                            </svg>
-                            免费下载
-                        </a>
-                        <a href="https://github.com/nicepkg/adnify" target="_blank" class="btn-secondary btn-large">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                            </svg>
-                            GitHub
-                        </a>
-                    </div>
-                    
-                    <div class="platform-icons">
-                        <div class="platform">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M0 3.449L9.75 2.1v9.451H0m10.949-9.602L24 0v11.4H10.949M0 12.6h9.75v9.451L0 20.699M10.949 12.6H24V24l-12.9-1.801"/>
-                            </svg>
-                            <span>Windows</span>
-                        </div>
-                        <div class="platform">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
-                            </svg>
-                            <span>macOS</span>
-                        </div>
-                        <div class="platform">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M12.504 0c-.155 0-.311.001-.465.003-.653.014-1.302.067-1.943.198a6.602 6.602 0 0 0-1.752.644 6.796 6.796 0 0 0-1.47 1.058 6.796 6.796 0 0 0-1.058 1.47 6.602 6.602 0 0 0-.644 1.752c-.131.641-.184 1.29-.198 1.943-.002.154-.003.31-.003.465v12.934c0 .155.001.311.003.465.014.653.067 1.302.198 1.943a6.602 6.602 0 0 0 .644 1.752 6.796 6.796 0 0 0 1.058 1.47 6.796 6.796 0 0 0 1.47 1.058 6.602 6.602 0 0 0 1.752.644c.641.131 1.29.184 1.943.198.154.002.31.003.465.003h.992c.155 0 .311-.001.465-.003.653-.014 1.302-.067 1.943-.198a6.602 6.602 0 0 0 1.752-.644 6.796 6.796 0 0 0 1.47-1.058 6.796 6.796 0 0 0 1.058-1.47 6.602 6.602 0 0 0 .644-1.752c.131-.641.184-1.29.198-1.943.002-.154.003-.31.003-.465V4.467c0-.155-.001-.311-.003-.465-.014-.653-.067-1.302-.198-1.943a6.602 6.602 0 0 0-.644-1.752 6.796 6.796 0 0 0-1.058-1.47 6.796 6.796 0 0 0-1.47-1.058 6.602 6.602 0 0 0-1.752-.644C14.117.067 13.468.014 12.815 0h-.311zm-1.918 5.174h2.828l.054.001c.193.003.386.023.576.063.19.04.374.1.548.18.174.08.337.178.487.294.15.116.286.25.405.398.119.148.22.31.302.484.082.174.144.358.186.55.042.192.063.388.066.584l.001.054v1.636h-2.828V7.782c0-.193-.078-.368-.204-.494a.698.698 0 0 0-.494-.204h-.054a.698.698 0 0 0-.494.204.698.698 0 0 0-.204.494v8.436c0 .193.078.368.204.494.126.126.301.204.494.204h.054c.193 0 .368-.078.494-.204a.698.698 0 0 0 .204-.494v-1.636h2.828v1.636l-.001.054c-.003.196-.024.392-.066.584-.042.192-.104.376-.186.55-.082.174-.183.336-.302.484-.119.148-.255.282-.405.398-.15.116-.313.214-.487.294-.174.08-.358.14-.548.18-.19.04-.383.06-.576.063l-.054.001h-2.828l-.054-.001a3.29 3.29 0 0 1-.576-.063 2.79 2.79 0 0 1-.548-.18 2.58 2.58 0 0 1-.487-.294 2.38 2.38 0 0 1-.405-.398 2.38 2.38 0 0 1-.302-.484 2.79 2.79 0 0 1-.186-.55 3.29 3.29 0 0 1-.066-.584l-.001-.054V7.782l.001-.054c.003-.196.024-.392.066-.584.042-.192.104-.376.186-.55.082-.174.183-.336.302-.484.119-.148.255-.282.405-.398.15-.116.313-.214.487-.294.174-.08.358-.14.548-.18.19-.04.383-.06.576-.063l.054-.001z"/>
-                            </svg>
-                            <span>Linux</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-    </main>
-
-    <!-- Footer - Apple Minimal -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <p class="footer-copyright">© 2024 Adnify. Open Source under MIT License.</p>
-                <div class="footer-links">
-                    <a href="https://github.com/nicepkg/adnify" target="_blank">GitHub</a>
-                    <a href="https://github.com/nicepkg/adnify/issues" target="_blank">反馈</a>
-                    <a href="https://github.com/nicepkg/adnify/blob/main/README.md" target="_blank">文档</a>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Main JavaScript -->
-    <script src="assets/js/main.js"></script>
-
-</body>
+        <script src="script.js"></script>
+    </body>
 </html>
