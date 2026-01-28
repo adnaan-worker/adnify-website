@@ -1,0 +1,1000 @@
+{"timestamp":"2026-01-27T00:58:24.920Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T00:58:25.147Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T00:58:27.742Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Hero.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T00:58:29.179Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":228809,\"bypass\":true}"}
+{"timestamp":"2026-01-27T00:58:41.919Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":232639,\"bypass\":true}"}
+{"timestamp":"2026-01-27T00:58:44.675Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Features.tsx","success":true,"detail":"{\"size\":8747,\"bypass\":true}"}
+{"timestamp":"2026-01-27T00:58:44.694Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Features.tsx","success":true,"detail":"{\"size\":8747,\"bypass\":true}"}
+{"timestamp":"2026-01-27T00:58:45.185Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Features.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T00:58:46.827Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Features.tsx","success":true,"detail":"{\"size\":8747,\"bypass\":true}"}
+{"timestamp":"2026-01-27T00:58:49.620Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":267654,\"bypass\":true}"}
+{"timestamp":"2026-01-27T00:59:08.690Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":275006,\"bypass\":true}"}
+{"timestamp":"2026-01-27T00:59:18.150Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Features.tsx","success":true,"detail":"{\"size\":8747,\"bypass\":true}"}
+{"timestamp":"2026-01-27T00:59:18.167Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Features.tsx","success":true,"detail":"{\"size\":8747,\"bypass\":true}"}
+{"timestamp":"2026-01-27T00:59:18.177Z","operation":"file:write","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Features.tsx","success":true,"detail":"{\"size\":8468,\"bypass\":true}"}
+{"timestamp":"2026-01-27T00:59:18.581Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T00:59:18.820Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T00:59:19.051Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T00:59:21.639Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Features.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T00:59:23.070Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":318721,\"bypass\":true}"}
+{"timestamp":"2026-01-27T00:59:29.062Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":324026,\"bypass\":true}"}
+{"timestamp":"2026-01-27T00:59:32.187Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Stats.tsx","success":true,"detail":"{\"size\":2626,\"bypass\":true}"}
+{"timestamp":"2026-01-27T00:59:32.188Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Features.tsx","success":true,"detail":"{\"size\":8728,\"bypass\":true}"}
+{"timestamp":"2026-01-27T00:59:32.189Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Stats.tsx","success":true,"detail":"{\"size\":2626,\"bypass\":true}"}
+{"timestamp":"2026-01-27T00:59:32.205Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Features.tsx","success":true,"detail":"{\"size\":8728,\"bypass\":true}"}
+{"timestamp":"2026-01-27T00:59:32.207Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Stats.tsx","success":true,"detail":"{\"size\":2626,\"bypass\":true}"}
+{"timestamp":"2026-01-27T00:59:32.208Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Stats.tsx","success":true,"detail":"{\"size\":2626,\"bypass\":true}"}
+{"timestamp":"2026-01-27T00:59:32.219Z","operation":"file:write","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Features.tsx","success":true,"detail":"{\"size\":8414,\"bypass\":true}"}
+{"timestamp":"2026-01-27T00:59:32.220Z","operation":"file:write","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Stats.tsx","success":true,"detail":"{\"size\":2537,\"bypass\":true}"}
+{"timestamp":"2026-01-27T00:59:32.615Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T00:59:32.848Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T00:59:33.083Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T00:59:34.241Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":331536,\"bypass\":true}"}
+{"timestamp":"2026-01-27T00:59:35.703Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Stats.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T00:59:35.704Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Stats.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T00:59:38.535Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Stats.tsx","success":true,"detail":"{\"size\":2571,\"bypass\":true}"}
+{"timestamp":"2026-01-27T00:59:40.268Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":391010,\"bypass\":true}"}
+{"timestamp":"2026-01-27T00:59:43.972Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Stats.tsx","success":true,"detail":"{\"size\":2571,\"bypass\":true}"}
+{"timestamp":"2026-01-27T00:59:43.973Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Stats.tsx","success":true,"detail":"{\"size\":2571,\"bypass\":true}"}
+{"timestamp":"2026-01-27T00:59:43.997Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Stats.tsx","success":true,"detail":"{\"size\":2571,\"bypass\":true}"}
+{"timestamp":"2026-01-27T00:59:43.999Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Stats.tsx","success":true,"detail":"{\"size\":2571,\"bypass\":true}"}
+{"timestamp":"2026-01-27T00:59:44.012Z","operation":"file:write","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Stats.tsx","success":true,"detail":"{\"size\":2549,\"bypass\":true}"}
+{"timestamp":"2026-01-27T00:59:44.012Z","operation":"file:write","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Stats.tsx","success":true,"detail":"{\"size\":2548,\"bypass\":true}"}
+{"timestamp":"2026-01-27T00:59:44.393Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T00:59:44.635Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T00:59:44.865Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T00:59:45.282Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":393982,\"bypass\":true}"}
+{"timestamp":"2026-01-27T00:59:50.121Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Pricing.tsx","success":true,"detail":"{\"size\":7051,\"bypass\":true}"}
+{"timestamp":"2026-01-27T00:59:50.123Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/CTA.tsx","success":true,"detail":"{\"size\":3187,\"bypass\":true}"}
+{"timestamp":"2026-01-27T00:59:52.027Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":450372,\"bypass\":true}"}
+{"timestamp":"2026-01-27T00:59:57.804Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":454453,\"bypass\":true}"}
+{"timestamp":"2026-01-27T01:00:04.342Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":460674,\"bypass\":true}"}
+{"timestamp":"2026-01-27T01:00:09.614Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Pricing.tsx","success":true,"detail":"{\"size\":7051,\"bypass\":true}"}
+{"timestamp":"2026-01-27T01:00:09.615Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Pricing.tsx","success":true,"detail":"{\"size\":7051,\"bypass\":true}"}
+{"timestamp":"2026-01-27T01:00:09.616Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Pricing.tsx","success":true,"detail":"{\"size\":7051,\"bypass\":true}"}
+{"timestamp":"2026-01-27T01:00:09.644Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Pricing.tsx","success":true,"detail":"{\"size\":7051,\"bypass\":true}"}
+{"timestamp":"2026-01-27T01:00:09.647Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Pricing.tsx","success":true,"detail":"{\"size\":7051,\"bypass\":true}"}
+{"timestamp":"2026-01-27T01:00:09.649Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Pricing.tsx","success":true,"detail":"{\"size\":7051,\"bypass\":true}"}
+{"timestamp":"2026-01-27T01:00:09.658Z","operation":"file:write","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Pricing.tsx","success":true,"detail":"{\"size\":6548,\"bypass\":true}"}
+{"timestamp":"2026-01-27T01:00:09.664Z","operation":"file:write","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Pricing.tsx","success":true,"detail":"{\"size\":6961,\"bypass\":true}"}
+{"timestamp":"2026-01-27T01:00:09.665Z","operation":"file:write","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Pricing.tsx","success":true,"detail":"{\"size\":7041,\"bypass\":true}"}
+{"timestamp":"2026-01-27T01:00:10.056Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T01:00:10.300Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T01:00:10.534Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T01:00:12.615Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":473695,\"bypass\":true}"}
+{"timestamp":"2026-01-27T01:00:13.220Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Pricing.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T01:00:13.220Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Pricing.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T01:00:13.222Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Pricing.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T01:00:17.684Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":563502,\"bypass\":true}"}
+{"timestamp":"2026-01-27T01:00:30.204Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":564633,\"bypass\":true}"}
+{"timestamp":"2026-01-27T01:00:36.474Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":569313,\"bypass\":true}"}
+{"timestamp":"2026-01-27T01:00:37.462Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\CTA.tsx","success":true,"detail":"{\"size\":3187,\"bypass\":true}"}
+{"timestamp":"2026-01-27T01:00:37.491Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/CTA.tsx","success":true,"detail":"{\"size\":3187,\"bypass\":true}"}
+{"timestamp":"2026-01-27T01:00:37.500Z","operation":"file:write","target":"G:\\thProject\\test-demo\\ai-ide/src/components/CTA.tsx","success":true,"detail":"{\"size\":3390,\"bypass\":true}"}
+{"timestamp":"2026-01-27T01:00:37.894Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T01:00:38.128Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T01:00:38.361Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T01:00:40.982Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide\\src\\components\\CTA.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T01:00:42.382Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":592669,\"bypass\":true}"}
+{"timestamp":"2026-01-27T01:00:44.331Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Footer.tsx","success":true,"detail":"{\"size\":5602,\"bypass\":true}"}
+{"timestamp":"2026-01-27T01:00:48.835Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":613729,\"bypass\":true}"}
+{"timestamp":"2026-01-27T01:00:57.706Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":617110,\"bypass\":true}"}
+{"timestamp":"2026-01-27T01:01:04.167Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":621509,\"bypass\":true}"}
+{"timestamp":"2026-01-27T01:01:09.452Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":622899,\"bypass\":true}"}
+{"timestamp":"2026-01-27T01:01:24.647Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":630094,\"bypass\":true}"}
+{"timestamp":"2026-01-27T01:01:26.236Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Footer.tsx","success":true,"detail":"{\"size\":5602,\"bypass\":true}"}
+{"timestamp":"2026-01-27T01:01:26.236Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Footer.tsx","success":true,"detail":"{\"size\":5602,\"bypass\":true}"}
+{"timestamp":"2026-01-27T01:01:26.237Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Footer.tsx","success":true,"detail":"{\"size\":5602,\"bypass\":true}"}
+{"timestamp":"2026-01-27T01:01:26.238Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Footer.tsx","success":true,"detail":"{\"size\":5602,\"bypass\":true}"}
+{"timestamp":"2026-01-27T01:01:26.274Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Footer.tsx","success":true,"detail":"{\"size\":5602,\"bypass\":true}"}
+{"timestamp":"2026-01-27T01:01:26.277Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Footer.tsx","success":true,"detail":"{\"size\":5602,\"bypass\":true}"}
+{"timestamp":"2026-01-27T01:01:26.281Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Footer.tsx","success":true,"detail":"{\"size\":5602,\"bypass\":true}"}
+{"timestamp":"2026-01-27T01:01:26.284Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Footer.tsx","success":true,"detail":"{\"size\":5602,\"bypass\":true}"}
+{"timestamp":"2026-01-27T01:01:26.291Z","operation":"file:write","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Footer.tsx","success":true,"detail":"{\"size\":5566,\"bypass\":true}"}
+{"timestamp":"2026-01-27T01:01:26.297Z","operation":"file:write","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Footer.tsx","success":true,"detail":"{\"size\":5539,\"bypass\":true}"}
+{"timestamp":"2026-01-27T01:01:26.298Z","operation":"file:write","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Footer.tsx","success":true,"detail":"{\"size\":5880,\"bypass\":true}"}
+{"timestamp":"2026-01-27T01:01:26.299Z","operation":"file:write","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Footer.tsx","success":true,"detail":"{\"size\":7383,\"bypass\":true}"}
+{"timestamp":"2026-01-27T01:01:26.698Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T01:01:26.935Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T01:01:27.165Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T01:01:29.895Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Footer.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T01:01:29.896Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Footer.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T01:01:29.897Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Footer.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T01:01:29.897Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Footer.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T01:01:31.156Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":740448,\"bypass\":true}"}
+{"timestamp":"2026-01-27T01:01:36.172Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\next.config.js","success":true,"detail":"{\"size\":92,\"bypass\":true}"}
+{"timestamp":"2026-01-27T01:01:36.202Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/next.config.js","success":true,"detail":"{\"size\":92,\"bypass\":true}"}
+{"timestamp":"2026-01-27T01:01:36.216Z","operation":"file:write","target":"G:\\thProject\\test-demo\\ai-ide/next.config.js","success":true,"detail":"{\"size\":781,\"bypass\":true}"}
+{"timestamp":"2026-01-27T01:01:36.608Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T01:01:36.844Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T01:01:37.075Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T01:01:38.128Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":743902,\"bypass\":true}"}
+{"timestamp":"2026-01-27T01:01:40.551Z","operation":"shell:execute","target":"npx eslint --format json \"G:\\thProject\\test-demo\\ai-ide\\next.config.js\"","success":true,"detail":"{\"exitCode\":2,\"outputLength\":0,\"errorLength\":502}"}
+{"timestamp":"2026-01-27T01:01:44.247Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":746901,\"bypass\":true}"}
+{"timestamp":"2026-01-27T01:01:51.458Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":752393,\"bypass\":true}"}
+{"timestamp":"2026-01-27T01:01:53.190Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Navbar.tsx","success":true,"detail":"{\"size\":5306,\"bypass\":true}"}
+{"timestamp":"2026-01-27T01:01:53.191Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Navbar.tsx","success":true,"detail":"{\"size\":5306,\"bypass\":true}"}
+{"timestamp":"2026-01-27T01:01:53.220Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Navbar.tsx","success":true,"detail":"{\"size\":5306,\"bypass\":true}"}
+{"timestamp":"2026-01-27T01:01:53.223Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Navbar.tsx","success":true,"detail":"{\"size\":5306,\"bypass\":true}"}
+{"timestamp":"2026-01-27T01:01:53.234Z","operation":"file:write","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Navbar.tsx","success":true,"detail":"{\"size\":5412,\"bypass\":true}"}
+{"timestamp":"2026-01-27T01:01:53.235Z","operation":"file:write","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Navbar.tsx","success":true,"detail":"{\"size\":5422,\"bypass\":true}"}
+{"timestamp":"2026-01-27T01:01:53.627Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T01:01:53.859Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T01:01:54.091Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T01:01:56.721Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Navbar.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T01:01:56.722Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Navbar.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T01:01:58.138Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":801093,\"bypass\":true}"}
+{"timestamp":"2026-01-27T01:02:05.011Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide/src/components/CTA.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T01:02:05.012Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide/src/components/Features.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T01:02:05.013Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide/src/components/Footer.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T01:02:05.014Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide/src/components/Navbar.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T01:02:05.014Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide/src/app/layout.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T01:02:07.482Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":807263,\"bypass\":true}"}
+{"timestamp":"2026-01-27T01:02:17.439Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":807608,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:14:36.935Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":808411,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:14:37.757Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/next.config.js","success":true,"detail":"{\"size\":781,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:14:52.007Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/workspace-state.json","success":true,"detail":"{\"size\":697,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:14:52.008Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":810224,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:15:13.715Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":817576,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:15:35.967Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":826501,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:15:41.075Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":830493,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:15:46.295Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":833408,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:15:52.578Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":838935,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:16:02.606Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":846552,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:16:08.071Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":848837,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:16:18.318Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":853517,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:16:26.139Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":861495,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:16:31.605Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":865894,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:16:36.682Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":867446,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:16:40.263Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Features.tsx","success":true,"detail":"{\"size\":8762,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:16:40.264Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Features.tsx","success":true,"detail":"{\"size\":8762,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:16:40.264Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Stats.tsx","success":true,"detail":"{\"size\":2583,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:16:40.265Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Stats.tsx","success":true,"detail":"{\"size\":2583,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:16:40.266Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Pricing.tsx","success":true,"detail":"{\"size\":7045,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:16:40.266Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Pricing.tsx","success":true,"detail":"{\"size\":7045,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:16:40.267Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Footer.tsx","success":true,"detail":"{\"size\":7434,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:16:40.268Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\CTA.tsx","success":true,"detail":"{\"size\":3515,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:16:40.268Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Footer.tsx","success":true,"detail":"{\"size\":7434,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:16:40.269Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Pricing.tsx","success":true,"detail":"{\"size\":7045,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:16:40.270Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Footer.tsx","success":true,"detail":"{\"size\":7434,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:16:40.337Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Features.tsx","success":true,"detail":"{\"size\":8762,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:16:40.340Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Features.tsx","success":true,"detail":"{\"size\":8762,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:16:40.345Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Stats.tsx","success":true,"detail":"{\"size\":2583,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:16:40.349Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Stats.tsx","success":true,"detail":"{\"size\":2583,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:16:40.354Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Pricing.tsx","success":true,"detail":"{\"size\":7045,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:16:40.357Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Pricing.tsx","success":true,"detail":"{\"size\":7045,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:16:40.362Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Pricing.tsx","success":true,"detail":"{\"size\":7045,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:16:40.367Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/CTA.tsx","success":true,"detail":"{\"size\":3515,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:16:40.394Z","operation":"file:write","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Features.tsx","success":true,"detail":"{\"size\":8414,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:16:40.396Z","operation":"file:write","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Features.tsx","success":true,"detail":"{\"size\":8414,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:16:40.464Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Footer.tsx","success":true,"detail":"{\"size\":7434,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:16:40.534Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Footer.tsx","success":true,"detail":"{\"size\":7434,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:16:40.554Z","operation":"file:write","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Pricing.tsx","success":true,"detail":"{\"size\":6538,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:16:40.555Z","operation":"file:write","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Pricing.tsx","success":true,"detail":"{\"size\":6951,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:16:40.557Z","operation":"file:write","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Pricing.tsx","success":true,"detail":"{\"size\":7041,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:16:40.558Z","operation":"file:write","target":"G:\\thProject\\test-demo\\ai-ide/src/components/CTA.tsx","success":true,"detail":"{\"size\":5518,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:16:40.559Z","operation":"file:write","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Footer.tsx","success":true,"detail":"{\"size\":7348,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:16:40.559Z","operation":"file:write","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Footer.tsx","success":true,"detail":"{\"size\":7321,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:16:40.988Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:16:41.214Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:16:41.442Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:16:44.696Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Pricing.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T02:16:44.707Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Features.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T02:16:44.719Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Features.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T02:16:44.721Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Pricing.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T02:16:44.723Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Stats.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T02:16:44.726Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide\\src\\components\\CTA.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T02:16:44.727Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Footer.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T02:16:44.728Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Pricing.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T02:16:44.729Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Stats.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T02:16:44.736Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Footer.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T02:16:44.744Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Footer.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T02:16:45.270Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1148815,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:17:10.938Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Stats.tsx","success":true,"detail":"{\"size\":2583,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:17:10.943Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Features.tsx","success":true,"detail":"{\"size\":8762,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:17:10.948Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Footer.tsx","success":true,"detail":"{\"size\":7420,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:17:11.050Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1178232,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:17:30.353Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1180403,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:17:35.441Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1183953,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:17:37.537Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Stats.tsx","success":true,"detail":"{\"size\":2583,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:17:37.560Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Stats.tsx","success":true,"detail":"{\"size\":2583,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:17:37.565Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Stats.tsx","success":true,"detail":"{\"size\":2583,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:17:37.571Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Footer.tsx","success":true,"detail":"{\"size\":7420,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:17:37.598Z","operation":"file:write","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Stats.tsx","success":true,"detail":"{\"size\":3065,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:17:37.987Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:17:38.219Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:17:38.445Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:17:41.048Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Stats.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T02:17:42.540Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1204842,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:18:30.431Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1207760,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:18:37.381Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1212525,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:18:40.261Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Footer.tsx","success":true,"detail":"{\"size\":7420,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:18:40.285Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Footer.tsx","success":true,"detail":"{\"size\":7420,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:18:40.315Z","operation":"file:write","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Footer.tsx","success":true,"detail":"{\"size\":7578,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:18:40.712Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:18:40.737Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide/src/components/Stats.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T02:18:40.738Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide/src/components/Footer.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T02:18:40.940Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:18:41.172Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:18:43.763Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Footer.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T02:18:45.268Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1245614,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:19:02.650Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1245846,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:19:07.701Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1247567,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:19:08.587Z","operation":"terminal:interactive","target":"terminal:create","success":true,"detail":"{\"id\":\"758754c7-c8ea-4faf-bccc-9755b5852666\",\"cwd\":\"G:\\\\thProject\\\\test-demo\",\"shell\":\"powershell.exe\"}"}
+{"timestamp":"2026-01-27T02:19:23.163Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:19:23.410Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:19:23.694Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:19:23.731Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/workspace-state.json","success":true,"detail":"{\"size\":697,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:19:23.732Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1248772,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:19:24.211Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:19:24.441Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:19:24.670Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:19:30.359Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:19:30.606Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:19:30.836Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:19:32.069Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:19:32.359Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:19:32.597Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:19:32.787Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:19:33.017Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:19:33.247Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:19:33.984Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:19:34.213Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:19:34.443Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:19:48.219Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1264543,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:19:53.229Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1266067,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:20:28.132Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1266524,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:20:39.780Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1269201,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:20:51.504Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/app/page.tsx","success":true,"detail":"{\"size\":342,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:20:51.505Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Features.tsx","success":true,"detail":"{\"size\":8762,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:20:51.506Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Hero.tsx","success":true,"detail":"{\"size\":8810,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:20:51.507Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Navbar.tsx","success":true,"detail":"{\"size\":5422,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:20:51.507Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Pricing.tsx","success":true,"detail":"{\"size\":7045,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:20:53.623Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1301135,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:25:39.824Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/workspace-state.json","success":true,"detail":"{\"size\":317,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:25:39.825Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1301137,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:25:59.497Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Stats.tsx","success":true,"detail":"{\"size\":3161,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:25:59.502Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/CTA.tsx","success":true,"detail":"{\"size\":5747,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:26:00.387Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1336639,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:26:05.438Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1366842,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:26:07.069Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/CTA.tsx","success":true,"detail":"{\"size\":5747,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:26:10.833Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1389813,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:26:13.940Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\CTA.tsx","success":true,"detail":"{\"size\":5747,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:26:13.967Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/CTA.tsx","success":true,"detail":"{\"size\":5747,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:26:13.974Z","operation":"file:write","target":"G:\\thProject\\test-demo\\ai-ide/src/components/CTA.tsx","success":true,"detail":"{\"size\":3694,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:26:14.653Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:26:14.944Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:26:15.173Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:26:17.462Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide\\src\\components\\CTA.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T02:26:17.749Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1417965,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:26:20.348Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/CTA.tsx","success":true,"detail":"{\"size\":3819,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:26:23.249Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/workspace-state.json","success":true,"detail":"{\"size\":435,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:26:23.250Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1417965,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:26:26.402Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Features.tsx","success":true,"detail":"{\"size\":8762,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:26:28.077Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\CTA.tsx","success":true,"detail":"{\"size\":3819,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:26:29.490Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1439626,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:26:30.821Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\CTA.tsx","success":true,"detail":"{\"size\":3819,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:26:38.497Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:26:38.728Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:26:38.777Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Footer.tsx","success":true,"detail":"{\"size\":7693,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:26:38.782Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Navbar.tsx","success":true,"detail":"{\"size\":5422,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:26:39.002Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:26:42.061Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/workspace-state.json","success":true,"detail":"{\"size\":543,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:26:42.062Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1479950,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:26:43.152Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:26:43.388Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:26:43.622Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:27:15.142Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:27:15.371Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:27:15.612Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:27:29.627Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\tsconfig.json","success":true,"detail":"{\"size\":602,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:27:37.681Z","operation":"file:write","target":"G:\\thProject\\test-demo\\ai-ide\\tsconfig.json","success":true,"detail":"{\"size\":602,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:27:37.682Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\tsconfig.json","success":true,"detail":"{\"size\":602,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:27:37.745Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\tsconfig.json","success":true,"detail":"{\"size\":602,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:27:38.429Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:27:38.669Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:27:38.903Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:27:39.504Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/workspace-state.json","success":true,"detail":"{\"size\":587,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:27:39.505Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1480124,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:27:51.281Z","operation":"file:write","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\CTA.tsx","success":true,"detail":"{\"size\":3694,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:27:51.283Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\CTA.tsx","success":true,"detail":"{\"size\":3819,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:27:51.338Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\CTA.tsx","success":true,"detail":"{\"size\":3819,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:27:51.834Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:27:52.088Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:27:52.324Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:28:05.915Z","operation":"file:write","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\CTA.tsx","success":true,"detail":"{\"size\":3390,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:28:05.916Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\CTA.tsx","success":true,"detail":"{\"size\":3515,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:28:06.035Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\CTA.tsx","success":true,"detail":"{\"size\":3515,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:28:06.588Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:28:06.861Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:28:07.095Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:29:06.863Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:29:07.095Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:29:07.323Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:31:47.504Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/workspace-state.json","success":true,"detail":"{\"size\":598,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:31:47.506Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1480391,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:31:59.695Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1481194,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:32:07.273Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1483591,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:32:20.186Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1494966,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:32:25.322Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1497105,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:32:31.223Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1501071,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:32:35.966Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\CTA.tsx","success":true,"detail":"{\"size\":3515,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:32:35.967Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Navbar.tsx","success":true,"detail":"{\"size\":5422,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:32:35.967Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Footer.tsx","success":true,"detail":"{\"size\":7693,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:32:35.968Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Navbar.tsx","success":true,"detail":"{\"size\":5422,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:32:35.969Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Footer.tsx","success":true,"detail":"{\"size\":7693,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:32:35.969Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Footer.tsx","success":true,"detail":"{\"size\":7693,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:32:36.017Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/CTA.tsx","success":true,"detail":"{\"size\":3515,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:32:36.025Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Navbar.tsx","success":true,"detail":"{\"size\":5422,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:32:36.031Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Navbar.tsx","success":true,"detail":"{\"size\":5422,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:32:36.037Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Footer.tsx","success":true,"detail":"{\"size\":7693,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:32:36.042Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Footer.tsx","success":true,"detail":"{\"size\":7693,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:32:36.048Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Footer.tsx","success":true,"detail":"{\"size\":7693,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:32:36.054Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Stats.tsx","success":true,"detail":"{\"size\":3161,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:32:36.063Z","operation":"file:write","target":"G:\\thProject\\test-demo\\ai-ide/src/components/CTA.tsx","success":true,"detail":"{\"size\":3390,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:32:36.064Z","operation":"file:write","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Navbar.tsx","success":true,"detail":"{\"size\":5656,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:32:36.065Z","operation":"file:write","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Navbar.tsx","success":true,"detail":"{\"size\":5421,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:32:36.065Z","operation":"file:write","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Footer.tsx","success":true,"detail":"{\"size\":7528,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:32:36.066Z","operation":"file:write","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Footer.tsx","success":true,"detail":"{\"size\":8953,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:32:36.168Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\CTA.tsx","success":true,"detail":"{\"size\":3515,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:32:36.505Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:32:36.740Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:32:36.895Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:32:36.967Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:32:37.032Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1539520,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:32:37.194Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:32:37.431Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:32:39.857Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Navbar.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T02:32:39.858Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide\\src\\components\\CTA.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T02:32:39.859Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Footer.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T02:32:39.859Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Footer.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T02:32:39.860Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Navbar.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T02:32:39.860Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Footer.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T02:32:44.192Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1670942,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:32:48.278Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Stats.tsx","success":true,"detail":"{\"size\":3161,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:32:48.306Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Stats.tsx","success":true,"detail":"{\"size\":3161,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:32:48.312Z","operation":"file:write","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Stats.tsx","success":true,"detail":"{\"size\":3011,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:32:48.696Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide/src/components/CTA.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T02:32:48.866Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:32:49.151Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:32:49.387Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:32:50.955Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1676900,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:32:51.730Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Stats.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T02:32:56.337Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1690913,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:32:59.657Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/app/globals.css","success":true,"detail":"{\"size\":2722,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:33:03.559Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1703692,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:33:17.430Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1704933,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:33:30.588Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1706433,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:33:40.300Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:33:40.559Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:33:40.797Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:33:40.872Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:33:41.138Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:33:41.367Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:33:42.169Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:33:42.398Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:33:42.626Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:33:47.563Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1706778,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:33:58.259Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1708386,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:34:01.119Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Navbar.tsx","success":true,"detail":"{\"size\":5656,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:34:04.885Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1729845,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:34:19.977Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1732310,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:34:41.525Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:34:41.758Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:34:41.988Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:34:57.070Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1743956,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:35:48.382Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Navbar.tsx","success":true,"detail":"{\"size\":5656,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:35:48.421Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Navbar.tsx","success":true,"detail":"{\"size\":5656,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:35:48.468Z","operation":"file:write","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Navbar.tsx","success":true,"detail":"{\"size\":5573,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:35:49.022Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:35:49.064Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide/src/components/Footer.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T02:35:49.065Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide/src/components/Stats.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T02:35:49.066Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide/src/components/Navbar.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T02:35:49.067Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide/src/components/Features.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T02:35:49.078Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide/src/components/CTA.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T02:35:49.278Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:35:49.512Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:35:49.586Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:35:49.874Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:35:50.108Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:35:50.970Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1756536,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:35:56.518Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1780972,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:36:49.840Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:36:50.068Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:36:50.299Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:37:53.609Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1788970,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:38:04.990Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1790463,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:38:13.999Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1796861,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:38:30.217Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Stats.tsx","success":true,"detail":"{\"size\":3107,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:38:30.244Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Stats.tsx","success":true,"detail":"{\"size\":3107,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:38:30.256Z","operation":"file:write","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Stats.tsx","success":true,"detail":"{\"size\":3030,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:38:30.794Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide/src/components/Stats.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T02:38:30.899Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:38:31.191Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:38:31.426Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:38:33.782Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Stats.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T02:38:34.882Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1815219,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:38:41.171Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1816628,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:39:31.180Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:39:31.409Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:39:31.637Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:42:06.642Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1816628,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:46:19.600Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1816630,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:46:44.115Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1817481,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:46:52.264Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Features.tsx","success":true,"detail":"{\"size\":8762,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:46:52.271Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Hero.tsx","success":true,"detail":"{\"size\":8810,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:46:54.173Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1859750,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:47:12.253Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1863445,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:48:29.180Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1865427,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:48:38.923Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1866740,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:48:43.940Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1870032,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:48:44.914Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Hero.tsx","success":true,"detail":"{\"size\":8810,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:48:44.921Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Features.tsx","success":true,"detail":"{\"size\":8762,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:48:44.931Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Footer.tsx","success":true,"detail":"{\"size\":9084,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:48:48.962Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1892628,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:49:05.545Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1894795,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:49:10.826Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1896067,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:49:16.568Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1897701,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:49:21.596Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1898187,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:49:26.625Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1899705,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:49:31.716Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1901259,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:49:36.774Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1902825,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:49:41.798Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1904371,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:49:46.948Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1905879,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:49:52.236Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1907591,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:49:57.267Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1909131,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:50:02.305Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1910671,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:50:07.338Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1912205,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:50:12.351Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1913705,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:50:22.303Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1914511,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:50:33.184Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1915966,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:50:39.333Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1916768,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:51:55.085Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Footer.tsx","success":true,"detail":"{\"size\":9084,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:51:58.308Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1928019,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:52:30.998Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1929206,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:52:34.025Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Footer.tsx","success":true,"detail":"{\"size\":9084,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:52:34.065Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Footer.tsx","success":true,"detail":"{\"size\":9084,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:52:34.075Z","operation":"file:write","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Footer.tsx","success":true,"detail":"{\"size\":7701,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:52:34.500Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:52:34.738Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:52:34.952Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:52:34.972Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:52:35.242Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:52:35.475Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:52:37.528Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1979301,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:52:37.552Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Footer.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T02:52:42.579Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1979301,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:53:23.337Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Features.tsx","success":true,"detail":"{\"size\":8762,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:53:27.230Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1988454,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:53:35.176Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Hero.tsx","success":true,"detail":"{\"size\":8810,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:53:35.302Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:53:35.539Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:53:35.766Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T02:53:38.807Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1992464,\"bypass\":true}"}
+{"timestamp":"2026-01-27T02:54:04.851Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1993885,\"bypass\":true}"}
+{"timestamp":"2026-01-27T03:03:22.345Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":1995777,\"bypass\":true}"}
+{"timestamp":"2026-01-27T03:03:36.076Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Features.tsx","success":true,"detail":"{\"size\":8762,\"bypass\":true}"}
+{"timestamp":"2026-01-27T03:03:39.535Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2016865,\"bypass\":true}"}
+{"timestamp":"2026-01-27T03:04:07.123Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Hero.tsx","success":true,"detail":"{\"size\":8810,\"bypass\":true}"}
+{"timestamp":"2026-01-27T03:04:11.030Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2037660,\"bypass\":true}"}
+{"timestamp":"2026-01-27T03:04:23.405Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Hero.tsx","success":true,"detail":"{\"size\":8810,\"bypass\":true}"}
+{"timestamp":"2026-01-27T03:04:24.493Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2043040,\"bypass\":true}"}
+{"timestamp":"2026-01-27T03:04:47.776Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2044059,\"bypass\":true}"}
+{"timestamp":"2026-01-27T03:04:50.952Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Hero.tsx","success":true,"detail":"{\"size\":8810,\"bypass\":true}"}
+{"timestamp":"2026-01-27T03:04:50.979Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Hero.tsx","success":true,"detail":"{\"size\":8810,\"bypass\":true}"}
+{"timestamp":"2026-01-27T03:04:50.984Z","operation":"file:write","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Hero.tsx","success":true,"detail":"{\"size\":9241,\"bypass\":true}"}
+{"timestamp":"2026-01-27T03:04:51.371Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T03:04:51.600Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T03:04:51.682Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T03:04:51.832Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T03:04:51.970Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T03:04:52.201Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T03:04:53.255Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2055315,\"bypass\":true}"}
+{"timestamp":"2026-01-27T03:04:54.437Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Hero.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T03:04:59.028Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2093700,\"bypass\":true}"}
+{"timestamp":"2026-01-27T03:05:52.083Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T03:05:52.318Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T03:05:52.549Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T03:06:26.600Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2093700,\"bypass\":true}"}
+{"timestamp":"2026-01-27T03:10:01.799Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2093967,\"bypass\":true}"}
+{"timestamp":"2026-01-27T03:10:28.314Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2094768,\"bypass\":true}"}
+{"timestamp":"2026-01-27T03:10:39.799Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2097145,\"bypass\":true}"}
+{"timestamp":"2026-01-27T03:11:10.765Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2113073,\"bypass\":true}"}
+{"timestamp":"2026-01-27T03:12:07.079Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Footer.tsx","success":true,"detail":"{\"size\":7832,\"bypass\":true}"}
+{"timestamp":"2026-01-27T03:12:07.114Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Footer.tsx","success":true,"detail":"{\"size\":7832,\"bypass\":true}"}
+{"timestamp":"2026-01-27T03:12:07.122Z","operation":"file:write","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Footer.tsx","success":true,"detail":"{\"size\":7558,\"bypass\":true}"}
+{"timestamp":"2026-01-27T03:12:07.505Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T03:12:07.732Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T03:12:07.826Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T03:12:07.961Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T03:12:08.091Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T03:12:08.319Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T03:12:10.599Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Footer.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T03:12:12.036Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2154312,\"bypass\":true}"}
+{"timestamp":"2026-01-27T03:12:27.132Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2154992,\"bypass\":true}"}
+{"timestamp":"2026-01-27T03:13:08.104Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T03:13:08.342Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T03:13:08.574Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T03:14:49.988Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2158353,\"bypass\":true}"}
+{"timestamp":"2026-01-27T03:15:11.110Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2158712,\"bypass\":true}"}
+{"timestamp":"2026-01-27T03:23:17.186Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2158353,\"bypass\":true}"}
+{"timestamp":"2026-01-27T03:23:27.441Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2162213,\"bypass\":true}"}
+{"timestamp":"2026-01-27T03:23:32.756Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2162753,\"bypass\":true}"}
+{"timestamp":"2026-01-27T03:24:55.753Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Hero.tsx","success":true,"detail":"{\"size\":9295,\"bypass\":true}"}
+{"timestamp":"2026-01-27T03:24:55.793Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Hero.tsx","success":true,"detail":"{\"size\":9295,\"bypass\":true}"}
+{"timestamp":"2026-01-27T03:24:55.803Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Hero.tsx","success":true,"detail":"{\"size\":9295,\"bypass\":true}"}
+{"timestamp":"2026-01-27T03:24:55.839Z","operation":"file:write","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Hero.tsx","success":true,"detail":"{\"size\":8756,\"bypass\":true}"}
+{"timestamp":"2026-01-27T03:24:56.993Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T03:24:57.299Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T03:24:57.528Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T03:24:59.296Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Hero.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T03:25:00.713Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2217966,\"bypass\":true}"}
+{"timestamp":"2026-01-27T03:25:40.194Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide/src/components/Hero.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T03:25:40.199Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide/src/components/Footer.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T03:25:40.200Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide/src/components/Features.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T03:25:40.217Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide/src/components/CTA.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T03:25:40.226Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide/src/components/Stats.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T03:25:41.088Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2224168,\"bypass\":true}"}
+{"timestamp":"2026-01-27T03:25:54.950Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2225122,\"bypass\":true}"}
+{"timestamp":"2026-01-27T03:25:57.316Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T03:25:57.542Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T03:25:57.771Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T03:29:33.502Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2225122,\"bypass\":true}"}
+{"timestamp":"2026-01-27T04:38:05.947Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2226009,\"bypass\":true}"}
+{"timestamp":"2026-01-27T04:38:23.060Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2229915,\"bypass\":true}"}
+{"timestamp":"2026-01-27T04:39:28.032Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Hero.tsx","success":true,"detail":"{\"size\":8810,\"bypass\":true}"}
+{"timestamp":"2026-01-27T04:39:28.072Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Hero.tsx","success":true,"detail":"{\"size\":8810,\"bypass\":true}"}
+{"timestamp":"2026-01-27T04:39:28.081Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Hero.tsx","success":true,"detail":"{\"size\":8810,\"bypass\":true}"}
+{"timestamp":"2026-01-27T04:39:28.113Z","operation":"file:write","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Hero.tsx","success":true,"detail":"{\"size\":8756,\"bypass\":true}"}
+{"timestamp":"2026-01-27T04:39:28.957Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T04:39:29.218Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T04:39:29.448Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T04:39:31.599Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Hero.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T04:39:32.973Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2281146,\"bypass\":true}"}
+{"timestamp":"2026-01-27T04:39:47.019Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2282923,\"bypass\":true}"}
+{"timestamp":"2026-01-27T04:39:56.503Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Hero.tsx","success":true,"detail":"{\"size\":8810,\"bypass\":true}"}
+{"timestamp":"2026-01-27T04:40:00.468Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2287334,\"bypass\":true}"}
+{"timestamp":"2026-01-27T04:40:13.215Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2287993,\"bypass\":true}"}
+{"timestamp":"2026-01-27T04:40:28.995Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T04:40:29.219Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T04:40:29.448Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T04:47:47.982Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2287993,\"bypass\":true}"}
+{"timestamp":"2026-01-27T04:58:05.411Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T04:58:05.423Z","operation":"file:read","target":"G:\\thProject\\test-demo/.adnify/workspace-state.json","success":true,"detail":"{\"size\":598,\"bypass\":true}"}
+{"timestamp":"2026-01-27T04:58:05.429Z","operation":"file:read","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2385491,\"bypass\":true}"}
+{"timestamp":"2026-01-27T04:58:05.639Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T04:58:05.864Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T04:58:10.017Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/workspace-state.json","success":true,"detail":"{\"size\":277,\"bypass\":true}"}
+{"timestamp":"2026-01-27T04:58:10.019Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2287656,\"bypass\":true}"}
+{"timestamp":"2026-01-27T04:58:21.446Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2288809,\"bypass\":true}"}
+{"timestamp":"2026-01-27T05:01:10.956Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2290145,\"bypass\":true}"}
+{"timestamp":"2026-01-27T05:01:15.983Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2290215,\"bypass\":true}"}
+{"timestamp":"2026-01-27T05:01:24.032Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2290787,\"bypass\":true}"}
+{"timestamp":"2026-01-27T05:01:30.385Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2292969,\"bypass\":true}"}
+{"timestamp":"2026-01-27T05:01:35.427Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2295659,\"bypass\":true}"}
+{"timestamp":"2026-01-27T05:01:40.480Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2298401,\"bypass\":true}"}
+{"timestamp":"2026-01-27T05:01:45.532Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2301113,\"bypass\":true}"}
+{"timestamp":"2026-01-27T05:01:50.593Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2303849,\"bypass\":true}"}
+{"timestamp":"2026-01-27T05:01:55.645Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2306565,\"bypass\":true}"}
+{"timestamp":"2026-01-27T05:02:00.674Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2309243,\"bypass\":true}"}
+{"timestamp":"2026-01-27T05:02:05.769Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2312011,\"bypass\":true}"}
+{"timestamp":"2026-01-27T05:02:10.832Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2314731,\"bypass\":true}"}
+{"timestamp":"2026-01-27T05:02:15.882Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2317439,\"bypass\":true}"}
+{"timestamp":"2026-01-27T05:02:20.946Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2320151,\"bypass\":true}"}
+{"timestamp":"2026-01-27T05:02:26.002Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2322819,\"bypass\":true}"}
+{"timestamp":"2026-01-27T05:02:31.084Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2325511,\"bypass\":true}"}
+{"timestamp":"2026-01-27T05:02:36.148Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2328199,\"bypass\":true}"}
+{"timestamp":"2026-01-27T05:02:41.207Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2330865,\"bypass\":true}"}
+{"timestamp":"2026-01-27T05:02:46.311Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2333747,\"bypass\":true}"}
+{"timestamp":"2026-01-27T05:09:02.206Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2334546,\"bypass\":true}"}
+{"timestamp":"2026-01-27T05:09:14.514Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2336261,\"bypass\":true}"}
+{"timestamp":"2026-01-27T05:09:19.427Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\CodeEditor.tsx","success":true,"detail":"{\"size\":8696,\"bypass\":true}"}
+{"timestamp":"2026-01-27T05:09:19.474Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/CodeEditor.tsx","success":true,"detail":"{\"size\":8696,\"bypass\":true}"}
+{"timestamp":"2026-01-27T05:09:19.495Z","operation":"file:write","target":"G:\\thProject\\test-demo\\ai-ide/src/components/CodeEditor.tsx","success":true,"detail":"{\"size\":1827,\"bypass\":true}"}
+{"timestamp":"2026-01-27T05:09:19.876Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide/src/components/CodeEditor.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T05:09:19.885Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T05:09:20.147Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T05:09:20.376Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T05:09:22.976Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide\\src\\components\\CodeEditor.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T05:09:23.924Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2373896,\"bypass\":true}"}
+{"timestamp":"2026-01-27T05:09:35.308Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Hero.tsx","success":true,"detail":"{\"size\":8810,\"bypass\":true}"}
+{"timestamp":"2026-01-27T05:09:37.474Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2380763,\"bypass\":true}"}
+{"timestamp":"2026-01-27T05:09:49.411Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2381167,\"bypass\":true}"}
+{"timestamp":"2026-01-27T05:09:54.437Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2385262,\"bypass\":true}"}
+{"timestamp":"2026-01-27T05:10:59.004Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Hero.tsx","success":true,"detail":"{\"size\":8810,\"bypass\":true}"}
+{"timestamp":"2026-01-27T05:10:59.051Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Hero.tsx","success":true,"detail":"{\"size\":8810,\"bypass\":true}"}
+{"timestamp":"2026-01-27T05:10:59.057Z","operation":"file:write","target":"G:\\thProject\\test-demo\\ai-ide/src/components/Hero.tsx","success":true,"detail":"{\"size\":8762,\"bypass\":true}"}
+{"timestamp":"2026-01-27T05:10:59.439Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T05:10:59.677Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T05:10:59.908Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T05:11:02.505Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\ai-ide\\src\\components\\Hero.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-27T05:11:03.939Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2431826,\"bypass\":true}"}
+{"timestamp":"2026-01-27T05:11:16.436Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2432412,\"bypass\":true}"}
+{"timestamp":"2026-01-27T05:11:29.779Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/CodeEditor.tsx","success":true,"detail":"{\"size\":1827,\"bypass\":true}"}
+{"timestamp":"2026-01-27T05:11:39.385Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/workspace-state.json","success":true,"detail":"{\"size\":409,\"bypass\":true}"}
+{"timestamp":"2026-01-27T05:11:39.387Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2432412,\"bypass\":true}"}
+{"timestamp":"2026-01-27T05:18:07.874Z","operation":"terminal:interactive","target":"terminal:create","success":true,"detail":"{\"id\":\"2cb48490-b96a-4b8b-86b4-512d4e74ca11\",\"cwd\":\"G:\\\\thProject\\\\test-demo\",\"shell\":\"powershell.exe\"}"}
+{"timestamp":"2026-01-27T05:18:21.241Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T05:18:21.542Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T05:18:21.720Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T05:18:21.782Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T05:18:22.022Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T05:18:22.217Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T05:18:22.316Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T05:18:22.485Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T05:18:22.790Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T05:18:23.214Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T05:18:23.443Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T05:18:23.673Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T05:18:59.433Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T05:18:59.672Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T05:18:59.912Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T05:19:00.731Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T05:19:01.028Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T05:19:01.260Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T05:19:01.414Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T05:19:01.648Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T05:19:01.877Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T05:19:02.581Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T05:19:02.809Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T05:19:03.039Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T05:24:03.754Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/workspace-state.json","success":true,"detail":"{\"size\":409,\"bypass\":true}"}
+{"timestamp":"2026-01-27T05:24:38.786Z","operation":"file:read","target":"G:\\Project\\odoo-bus\\mock_data_new.sql","success":false,"detail":"{\"reason\":\"安全底线：超出工作区边界\"}"}
+{"timestamp":"2026-01-27T05:24:39.852Z","operation":"file:read","target":"G:\\Project\\odoo-bus\\mock_data_new.sql","success":false,"detail":"{\"reason\":\"安全底线：超出工作区边界\"}"}
+{"timestamp":"2026-01-27T05:24:40.848Z","operation":"file:read","target":"G:\\Project\\odoo-bus\\mock_data.sql","success":false,"detail":"{\"reason\":\"安全底线：超出工作区边界\"}"}
+{"timestamp":"2026-01-27T05:24:41.351Z","operation":"file:read","target":"G:\\Project\\odoo-bus\\mock_data.sql","success":false,"detail":"{\"reason\":\"安全底线：超出工作区边界\"}"}
+{"timestamp":"2026-01-27T05:24:41.584Z","operation":"file:read","target":"G:\\Project\\odoo-bus\\mock_data.sql","success":false,"detail":"{\"reason\":\"安全底线：超出工作区边界\"}"}
+{"timestamp":"2026-01-27T05:24:42.004Z","operation":"file:read","target":"G:\\Project\\odoo-bus\\odoo-bin","success":false,"detail":"{\"reason\":\"安全底线：超出工作区边界\"}"}
+{"timestamp":"2026-01-27T05:24:42.482Z","operation":"file:read","target":"G:\\Project\\odoo-bus\\odoo-dev.conf","success":false,"detail":"{\"reason\":\"安全底线：超出工作区边界\"}"}
+{"timestamp":"2026-01-27T05:24:43.016Z","operation":"file:read","target":"G:\\Project\\odoo-bus\\odoo.conf","success":false,"detail":"{\"reason\":\"安全底线：超出工作区边界\"}"}
+{"timestamp":"2026-01-27T05:24:43.450Z","operation":"file:read","target":"G:\\Project\\odoo-bus\\README.md","success":false,"detail":"{\"reason\":\"安全底线：超出工作区边界\"}"}
+{"timestamp":"2026-01-27T05:24:47.604Z","operation":"file:read","target":"G:\\Project\\odoo-bus\\odoo-dev.conf","success":false,"detail":"{\"reason\":\"安全底线：超出工作区边界\"}"}
+{"timestamp":"2026-01-27T05:24:48.016Z","operation":"file:read","target":"G:\\Project\\odoo-bus\\odoo.conf","success":false,"detail":"{\"reason\":\"安全底线：超出工作区边界\"}"}
+{"timestamp":"2026-01-27T05:24:48.466Z","operation":"file:read","target":"G:\\Project\\odoo-bus\\README.md","success":false,"detail":"{\"reason\":\"安全底线：超出工作区边界\"}"}
+{"timestamp":"2026-01-27T05:24:49.350Z","operation":"file:read","target":"G:\\Project\\odoo-bus\\resql.md","success":false,"detail":"{\"reason\":\"安全底线：超出工作区边界\"}"}
+{"timestamp":"2026-01-27T05:24:49.890Z","operation":"file:read","target":"G:\\Project\\odoo-bus\\setup.cfg","success":false,"detail":"{\"reason\":\"安全底线：超出工作区边界\"}"}
+{"timestamp":"2026-01-27T05:24:50.744Z","operation":"file:read","target":"G:\\Project\\odoo-bus\\docs\\UI_DEVELOPMENT_STANDARDS.md","success":false,"detail":"{\"reason\":\"安全底线：超出工作区边界\"}"}
+{"timestamp":"2026-01-27T05:24:51.330Z","operation":"file:read","target":"G:\\Project\\odoo-bus\\docs\\QUEUE_JOB_SETUP.md","success":false,"detail":"{\"reason\":\"安全底线：超出工作区边界\"}"}
+{"timestamp":"2026-01-27T05:24:52.682Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":0}"}
+{"timestamp":"2026-01-27T05:24:52.708Z","operation":"git:exec","target":"branch --show-current","success":true,"detail":"{\"exitCode\":0}"}
+{"timestamp":"2026-01-27T05:24:52.734Z","operation":"git:exec","target":"rev-list --left-right --count @{upstream}...HEAD","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T05:24:52.913Z","operation":"git:exec","target":"status --porcelain=v1 -uall","success":true,"detail":"{\"exitCode\":0}"}
+{"timestamp":"2026-01-27T05:24:52.987Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":0}"}
+{"timestamp":"2026-01-27T05:24:53.010Z","operation":"git:exec","target":"branch --show-current","success":true,"detail":"{\"exitCode\":0}"}
+{"timestamp":"2026-01-27T05:24:53.031Z","operation":"git:exec","target":"rev-list --left-right --count @{upstream}...HEAD","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T05:24:53.161Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":0}"}
+{"timestamp":"2026-01-27T05:24:53.178Z","operation":"git:exec","target":"status --porcelain=v1 -uall","success":true,"detail":"{\"exitCode\":0}"}
+{"timestamp":"2026-01-27T05:24:53.184Z","operation":"git:exec","target":"branch --show-current","success":true,"detail":"{\"exitCode\":0}"}
+{"timestamp":"2026-01-27T05:24:53.206Z","operation":"git:exec","target":"rev-list --left-right --count @{upstream}...HEAD","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T05:24:53.366Z","operation":"git:exec","target":"status --porcelain=v1 -uall","success":true,"detail":"{\"exitCode\":0}"}
+{"timestamp":"2026-01-27T05:24:53.638Z","operation":"file:read","target":"G:\\Project\\odoo-bus\\odoo-bin","success":false,"detail":"{\"reason\":\"安全底线：超出工作区边界\"}"}
+{"timestamp":"2026-01-27T05:24:54.260Z","operation":"file:read","target":"G:\\Project\\odoo-bus\\odoo.conf","success":false,"detail":"{\"reason\":\"安全底线：超出工作区边界\"}"}
+{"timestamp":"2026-01-27T05:24:54.628Z","operation":"file:read","target":"G:\\Project\\odoo-bus\\odoo.conf","success":false,"detail":"{\"reason\":\"安全底线：超出工作区边界\"}"}
+{"timestamp":"2026-01-27T05:24:54.980Z","operation":"file:read","target":"G:\\Project\\odoo-bus\\README.md","success":false,"detail":"{\"reason\":\"安全底线：超出工作区边界\"}"}
+{"timestamp":"2026-01-27T05:24:55.319Z","operation":"file:read","target":"G:\\Project\\odoo-bus\\request.md","success":false,"detail":"{\"reason\":\"安全底线：超出工作区边界\"}"}
+{"timestamp":"2026-01-27T05:24:55.678Z","operation":"file:read","target":"G:\\Project\\odoo-bus\\requirements.txt","success":false,"detail":"{\"reason\":\"安全底线：超出工作区边界\"}"}
+{"timestamp":"2026-01-27T05:24:56.022Z","operation":"file:read","target":"G:\\Project\\odoo-bus\\resql.md","success":false,"detail":"{\"reason\":\"安全底线：超出工作区边界\"}"}
+{"timestamp":"2026-01-27T05:24:56.374Z","operation":"file:read","target":"G:\\Project\\odoo-bus\\setup.cfg","success":false,"detail":"{\"reason\":\"安全底线：超出工作区边界\"}"}
+{"timestamp":"2026-01-27T05:24:56.712Z","operation":"file:read","target":"G:\\Project\\odoo-bus\\setup.py","success":false,"detail":"{\"reason\":\"安全底线：超出工作区边界\"}"}
+{"timestamp":"2026-01-27T05:54:20.712Z","operation":"file:read","target":"G:\\thProject\\test-demo/.adnify/workspace-state.json","success":true,"detail":"{\"size\":409,\"bypass\":true}"}
+{"timestamp":"2026-01-27T05:54:20.724Z","operation":"file:read","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2571276,\"bypass\":true}"}
+{"timestamp":"2026-01-27T05:54:20.753Z","operation":"file:read","target":"G:\\thProject\\test-demo\\ai-ide/src/components/CodeEditor.tsx","success":true,"detail":"{\"size\":1827,\"bypass\":true}"}
+{"timestamp":"2026-01-27T05:54:21.239Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T05:54:21.241Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T05:54:21.523Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T05:54:21.525Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T05:54:21.790Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T05:54:21.798Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-27T05:54:25.829Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/workspace-state.json","success":true,"detail":"{\"size\":375,\"bypass\":true}"}
+{"timestamp":"2026-01-27T05:54:25.831Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2432077,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:18:06.288Z","operation":"file:write","target":"G:\\thProject\\adnify-website/.adnify/workspace-state.json","success":false,"detail":"{\"reason\":\"安全底线：超出工作区边界\"}"}
+{"timestamp":"2026-01-28T06:18:06.304Z","operation":"file:read","target":"G:\\thProject\\test-demo/.adnify/workspace-state.json","success":true,"detail":"{\"size\":375,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:18:06.310Z","operation":"file:read","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2570941,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:18:06.329Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T06:18:06.558Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T06:18:06.784Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T06:18:11.309Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/workspace-state.json","success":true,"detail":"{\"size\":277,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:18:11.311Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2432077,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:18:16.700Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2432471,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:35:02.918Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T06:35:03.154Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T06:35:03.381Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T06:35:25.290Z","operation":"file:write","target":"G:\\thProject\\test-demo\\README.MD","success":true,"detail":"{\"size\":0,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:35:25.317Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T06:35:25.544Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T06:35:25.774Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T06:35:32.667Z","operation":"file:rename","target":"G:\\thProject\\test-demo\\README.MD","success":true,"detail":"{\"newPath\":\"G:/thProject/test-demo/README.md\",\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:35:32.693Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T06:35:32.924Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T06:35:33.154Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T06:35:34.269Z","operation":"file:read","target":"G:\\thProject\\test-demo\\README.md","success":true,"detail":"{\"size\":0,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:35:35.419Z","operation":"file:write","target":"G:\\thProject\\test-demo\\README.md","success":true,"detail":"{\"size\":15185,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:36:20.722Z","operation":"file:read","target":"G:\\thProject\\test-demo\\README.md","success":true,"detail":"{\"size\":24724,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:36:22.340Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/workspace-state.json","success":true,"detail":"{\"size\":547,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:36:22.343Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2458157,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:36:22.992Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src/components/Features.tsx","success":true,"detail":"{\"size\":8762,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:36:22.993Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src/components/Hero.tsx","success":true,"detail":"{\"size\":8816,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:36:22.994Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src/components/Navbar.tsx","success":true,"detail":"{\"size\":5573,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:36:22.995Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src/app/page.tsx","success":true,"detail":"{\"size\":342,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:36:22.996Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src/components/Footer.tsx","success":true,"detail":"{\"size\":7689,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:36:24.182Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src/components/Features.tsx","success":true,"detail":"{\"size\":8762,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:36:26.002Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src/components/Features.tsx","success":true,"detail":"{\"size\":8762,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:36:27.656Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2522875,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:36:27.745Z","operation":"file:read","target":"G:\\thProject\\test-demo\\README.md","success":true,"detail":"{\"size\":24724,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:36:29.745Z","operation":"file:read","target":"G:\\thProject\\test-demo\\README.md","success":true,"detail":"{\"size\":24724,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:36:31.594Z","operation":"file:read","target":"G:\\thProject\\test-demo\\README.md","success":true,"detail":"{\"size\":24724,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:36:32.683Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2569882,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:36:32.887Z","operation":"file:read","target":"G:\\thProject\\test-demo\\README.md","success":true,"detail":"{\"size\":24724,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:36:37.781Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2579829,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:36:42.823Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2582367,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:36:47.849Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2582617,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:37:32.096Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src/components/Features.tsx","success":true,"detail":"{\"size\":8762,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:37:33.697Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2604501,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:37:38.827Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2604637,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:38:02.042Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src\\components\\Features.tsx","success":true,"detail":"{\"size\":8762,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:38:02.129Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src/components/Features.tsx","success":true,"detail":"{\"size\":8762,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:38:02.139Z","operation":"file:write","target":"G:\\thProject\\test-demo\\src/components/Features.tsx","success":true,"detail":"{\"size\":10399,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:38:06.107Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\src\\components\\Features.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-28T06:38:06.915Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2672307,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:38:13.405Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2672462,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:38:14.568Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src\\components\\Features.tsx","success":true,"detail":"{\"size\":11423,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:38:14.627Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src/components/Features.tsx","success":true,"detail":"{\"size\":11423,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:38:14.636Z","operation":"file:write","target":"G:\\thProject\\test-demo\\src/components/Features.tsx","success":true,"detail":"{\"size\":13254,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:38:19.427Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2730355,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:38:21.104Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src\\app\\page.tsx","success":true,"detail":"{\"size\":342,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:38:21.170Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src/app/page.tsx","success":true,"detail":"{\"size\":342,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:38:21.178Z","operation":"file:write","target":"G:\\thProject\\test-demo\\src/app/page.tsx","success":true,"detail":"{\"size\":373,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:38:24.655Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\src\\app\\page.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-28T06:38:25.986Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2735988,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:38:44.566Z","operation":"file:write","target":"G:\\thProject\\test-demo\\src/components/TechStack.tsx","success":true,"detail":"{\"size\":7917,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:38:48.055Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\src\\components\\TechStack.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-28T06:38:49.363Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2771023,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:38:50.164Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src/components/index.ts","success":true,"detail":"{\"size\":370,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:38:53.777Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src\\components\\index.ts","success":true,"detail":"{\"size\":370,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:38:53.854Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src/components/index.ts","success":true,"detail":"{\"size\":370,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:38:53.868Z","operation":"file:write","target":"G:\\thProject\\test-demo\\src/components/index.ts","success":true,"detail":"{\"size\":422,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:38:54.397Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2776563,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:38:57.359Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\src\\components\\index.ts\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-28T06:39:00.148Z","operation":"file:read","target":"G:\\thProject\\test-demo\\README.md","success":true,"detail":"{\"size\":24724,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:39:01.915Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2782704,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:39:08.367Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2782869,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:39:09.789Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src\\components\\Footer.tsx","success":true,"detail":"{\"size\":7689,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:39:09.861Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src/components/Footer.tsx","success":true,"detail":"{\"size\":7689,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:39:09.873Z","operation":"file:write","target":"G:\\thProject\\test-demo\\src/components/Footer.tsx","success":true,"detail":"{\"size\":8604,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:39:13.367Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\src\\components\\Footer.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-28T06:39:14.671Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2832768,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:39:16.409Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\src/components/Features.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-28T06:39:18.588Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\src/components/TechStack.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-28T06:39:20.014Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2835175,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:39:20.623Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\src/app/page.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-28T06:39:23.246Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\src/components/Footer.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-28T06:39:25.131Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2837571,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:39:38.445Z","operation":"file:write","target":"G:\\thProject\\test-demo\\UPDATE_SUMMARY.md","success":true,"detail":"{\"size\":2935,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:39:40.933Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src/app/page.tsx","success":true,"detail":"{\"size\":373,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:39:43.228Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2854976,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:39:43.774Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src/components/Features.tsx","success":true,"detail":"{\"size\":14358,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:39:46.250Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src/components/Features.tsx","success":true,"detail":"{\"size\":14358,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:39:48.623Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2873082,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:39:48.788Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src/components/Features.tsx","success":true,"detail":"{\"size\":14358,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:39:53.657Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2876254,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:39:54.015Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src/components/Features.tsx","success":true,"detail":"{\"size\":14358,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:39:58.892Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2888327,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:40:03.188Z","operation":"file:read","target":"G:\\thProject\\test-demo\\package.json","success":true,"detail":"{\"size\":532,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:40:04.998Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2893855,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:40:05.644Z","operation":"terminal:interactive","target":"terminal:create","success":true,"detail":"{\"id\":\"51aa6f83-138b-4758-b111-1d446827d4ef\",\"cwd\":\"G:\\\\thProject\\\\test-demo\",\"shell\":\"powershell.exe\"}"}
+{"timestamp":"2026-01-28T06:40:11.915Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/workspace-state.json","success":true,"detail":"{\"size\":547,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:40:11.919Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2894918,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:40:18.667Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2895756,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:40:34.661Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2895754,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:40:35.600Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T06:40:35.829Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T06:40:36.060Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T06:40:38.451Z","operation":"file:read","target":"G:\\thProject\\test-demo\\UPDATE_SUMMARY.md","success":true,"detail":"{\"size\":5425,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:40:44.627Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/workspace-state.json","success":true,"detail":"{\"size\":606,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:40:44.629Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2899408,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:40:54.410Z","operation":"file:write","target":"G:\\thProject\\test-demo\\PREVIEW_GUIDE.md","success":true,"detail":"{\"size\":2725,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:40:59.207Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2914030,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:41:04.234Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2916081,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:42:12.688Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2917230,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:42:14.110Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src/components/Pricing.tsx","success":true,"detail":"{\"size\":7045,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:42:17.719Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":2938262,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:42:52.378Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src\\components\\Pricing.tsx","success":true,"detail":"{\"size\":7045,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:42:52.453Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src/components/Pricing.tsx","success":true,"detail":"{\"size\":7045,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:42:52.462Z","operation":"file:write","target":"G:\\thProject\\test-demo\\src/components/Pricing.tsx","success":true,"detail":"{\"size\":11203,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:42:56.007Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\src\\components\\Pricing.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-28T06:42:57.259Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":3016540,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:43:03.266Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":3017508,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:44:34.189Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":3017508,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:47:23.195Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src\\components\\Pricing.tsx","success":true,"detail":"{\"size\":12267,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:47:38.423Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/workspace-state.json","success":true,"detail":"{\"size\":765,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:47:38.425Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":3018966,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:47:45.373Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":3019169,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:48:02.436Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":3041282,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:48:31.815Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src\\components\\Pricing.tsx","success":true,"detail":"{\"size\":12267,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:48:31.876Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src/components/Pricing.tsx","success":true,"detail":"{\"size\":12267,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:48:31.901Z","operation":"file:write","target":"G:\\thProject\\test-demo\\src/components/Pricing.tsx","success":true,"detail":"{\"size\":9581,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:48:32.381Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\src/components/Pricing.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-28T06:48:36.804Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":3097893,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:50:16.729Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":3097895,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:57:31.007Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\src\\components\\Pricing.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-28T06:57:35.701Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src\\components\\Stats.tsx","success":true,"detail":"{\"size\":3126,\"bypass\":true}"}
+{"timestamp":"2026-01-28T06:57:36.181Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src\\components\\Pricing.tsx","success":true,"detail":"{\"size\":10645,\"bypass\":true}"}
+{"timestamp":"2026-01-28T07:51:16.572Z","operation":"file:read","target":"G:\\thProject\\test-demo/.adnify/workspace-state.json","success":true,"detail":"{\"size\":765,\"bypass\":true}"}
+{"timestamp":"2026-01-28T07:51:16.659Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T07:51:16.661Z","operation":"file:read","target":"G:\\thProject\\test-demo/package.json","success":true,"detail":"{\"size\":532,\"bypass\":true}"}
+{"timestamp":"2026-01-28T07:51:16.667Z","operation":"file:read","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":3326678,\"bypass\":true}"}
+{"timestamp":"2026-01-28T07:51:16.695Z","operation":"file:read","target":"G:\\thProject\\test-demo\\README.md","success":true,"detail":"{\"size\":24724,\"bypass\":true}"}
+{"timestamp":"2026-01-28T07:51:16.701Z","operation":"file:read","target":"G:\\thProject\\test-demo\\UPDATE_SUMMARY.md","success":true,"detail":"{\"size\":5425,\"bypass\":true}"}
+{"timestamp":"2026-01-28T07:51:16.777Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src\\components\\Pricing.tsx","success":true,"detail":"{\"size\":10645,\"bypass\":true}"}
+{"timestamp":"2026-01-28T07:51:16.893Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T07:51:17.146Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T07:51:21.232Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/workspace-state.json","success":true,"detail":"{\"size\":733,\"bypass\":true}"}
+{"timestamp":"2026-01-28T07:51:21.234Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":3097559,\"bypass\":true}"}
+{"timestamp":"2026-01-28T07:51:24.793Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src\\components\\Hero.tsx","success":true,"detail":"{\"size\":8816,\"bypass\":true}"}
+{"timestamp":"2026-01-28T07:51:28.033Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src\\components\\Hero.tsx","success":true,"detail":"{\"size\":8816,\"bypass\":true}"}
+{"timestamp":"2026-01-28T07:51:39.089Z","operation":"file:write","target":"G:\\thProject\\test-demo\\src\\components\\Hero.tsx","success":true,"detail":"{\"size\":8764,\"bypass\":true}"}
+{"timestamp":"2026-01-28T07:51:39.090Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src\\components\\Hero.tsx","success":true,"detail":"{\"size\":8818,\"bypass\":true}"}
+{"timestamp":"2026-01-28T07:51:39.145Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src\\components\\Hero.tsx","success":true,"detail":"{\"size\":8818,\"bypass\":true}"}
+{"timestamp":"2026-01-28T07:52:09.193Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/workspace-state.json","success":true,"detail":"{\"size\":523,\"bypass\":true}"}
+{"timestamp":"2026-01-28T07:52:09.195Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":3098737,\"bypass\":true}"}
+{"timestamp":"2026-01-28T07:56:11.593Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":3099018,\"bypass\":true}"}
+{"timestamp":"2026-01-28T07:56:17.675Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":3098737,\"bypass\":true}"}
+{"timestamp":"2026-01-28T07:56:31.047Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T07:56:31.278Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T07:56:31.503Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T07:57:50.994Z","operation":"file:read","target":"G:\\thProject\\test-demo\\PREVIEW_GUIDE.md","success":true,"detail":"{\"size\":4817,\"bypass\":true}"}
+{"timestamp":"2026-01-28T07:58:29.776Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/workspace-state.json","success":true,"detail":"{\"size\":474,\"bypass\":true}"}
+{"timestamp":"2026-01-28T07:58:29.779Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":3101255,\"bypass\":true}"}
+{"timestamp":"2026-01-28T07:59:00.174Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":3110150,\"bypass\":true}"}
+{"timestamp":"2026-01-28T07:59:11.119Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":3116323,\"bypass\":true}"}
+{"timestamp":"2026-01-28T07:59:21.955Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":3124601,\"bypass\":true}"}
+{"timestamp":"2026-01-28T07:59:27.261Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":3126306,\"bypass\":true}"}
+{"timestamp":"2026-01-28T07:59:41.598Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":3132645,\"bypass\":true}"}
+{"timestamp":"2026-01-28T07:59:42.444Z","operation":"file:write","target":"G:\\thProject\\test-demo\\src/data/","success":true,"detail":"{\"isDirectory\":true,\"bypass\":true}"}
+{"timestamp":"2026-01-28T07:59:42.614Z","operation":"file:write","target":"G:\\thProject\\test-demo\\src/data/techstack.json","success":true,"detail":"{\"size\":2364,\"bypass\":true}"}
+{"timestamp":"2026-01-28T07:59:42.616Z","operation":"file:write","target":"G:\\thProject\\test-demo\\src/data/features.json","success":true,"detail":"{\"size\":3608,\"bypass\":true}"}
+{"timestamp":"2026-01-28T07:59:42.617Z","operation":"file:write","target":"G:\\thProject\\test-demo\\src/data/license.json","success":true,"detail":"{\"size\":2214,\"bypass\":true}"}
+{"timestamp":"2026-01-28T07:59:42.618Z","operation":"file:write","target":"G:\\thProject\\test-demo\\src/data/hero.json","success":true,"detail":"{\"size\":765,\"bypass\":true}"}
+{"timestamp":"2026-01-28T07:59:42.619Z","operation":"file:write","target":"G:\\thProject\\test-demo\\src/data/stats.json","success":true,"detail":"{\"size\":430,\"bypass\":true}"}
+{"timestamp":"2026-01-28T07:59:42.621Z","operation":"file:write","target":"G:\\thProject\\test-demo\\src/data/navbar.json","success":true,"detail":"{\"size\":386,\"bypass\":true}"}
+{"timestamp":"2026-01-28T07:59:42.622Z","operation":"file:write","target":"G:\\thProject\\test-demo\\src/data/footer.json","success":true,"detail":"{\"size\":1056,\"bypass\":true}"}
+{"timestamp":"2026-01-28T07:59:42.627Z","operation":"file:write","target":"G:\\thProject\\test-demo\\src/data/cta.json","success":true,"detail":"{\"size\":381,\"bypass\":true}"}
+{"timestamp":"2026-01-28T07:59:43.010Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T07:59:43.246Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T07:59:43.477Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T07:59:46.030Z","operation":"file:write","target":"G:\\thProject\\test-demo\\src/data/index.ts","success":true,"detail":"{\"size\":480,\"bypass\":true}"}
+{"timestamp":"2026-01-28T07:59:46.414Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T07:59:46.642Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T07:59:46.869Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T07:59:47.206Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":3170281,\"bypass\":true}"}
+{"timestamp":"2026-01-28T07:59:49.663Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\src\\data\\index.ts\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-28T07:59:54.095Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":3172351,\"bypass\":true}"}
+{"timestamp":"2026-01-28T08:01:20.128Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":3174147,\"bypass\":true}"}
+{"timestamp":"2026-01-28T08:01:56.858Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":3195429,\"bypass\":true}"}
+{"timestamp":"2026-01-28T08:02:44.417Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src\\components\\Features.tsx","success":true,"detail":"{\"size\":14358,\"bypass\":true}"}
+{"timestamp":"2026-01-28T08:02:44.467Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src/components/Features.tsx","success":true,"detail":"{\"size\":14358,\"bypass\":true}"}
+{"timestamp":"2026-01-28T08:02:44.476Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src/components/Features.tsx","success":true,"detail":"{\"size\":14358,\"bypass\":true}"}
+{"timestamp":"2026-01-28T08:02:44.515Z","operation":"file:write","target":"G:\\thProject\\test-demo\\src/components/Features.tsx","success":true,"detail":"{\"size\":10207,\"bypass\":true}"}
+{"timestamp":"2026-01-28T08:02:44.904Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:02:45.130Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:02:45.357Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:02:48.014Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\src\\components\\Features.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-28T08:02:49.379Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":3272334,\"bypass\":true}"}
+{"timestamp":"2026-01-28T08:04:16.271Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":3273935,\"bypass\":true}"}
+{"timestamp":"2026-01-28T08:04:45.291Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":3286630,\"bypass\":true}"}
+{"timestamp":"2026-01-28T08:05:10.087Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src\\components\\TechStack.tsx","success":true,"detail":"{\"size\":8063,\"bypass\":true}"}
+{"timestamp":"2026-01-28T08:05:10.088Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src\\components\\Pricing.tsx","success":true,"detail":"{\"size\":10645,\"bypass\":true}"}
+{"timestamp":"2026-01-28T08:05:10.176Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src/components/TechStack.tsx","success":true,"detail":"{\"size\":8063,\"bypass\":true}"}
+{"timestamp":"2026-01-28T08:05:10.192Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src/components/Pricing.tsx","success":true,"detail":"{\"size\":10645,\"bypass\":true}"}
+{"timestamp":"2026-01-28T08:05:10.256Z","operation":"file:write","target":"G:\\thProject\\test-demo\\src/components/TechStack.tsx","success":true,"detail":"{\"size\":5748,\"bypass\":true}"}
+{"timestamp":"2026-01-28T08:05:10.257Z","operation":"file:write","target":"G:\\thProject\\test-demo\\src/components/Pricing.tsx","success":true,"detail":"{\"size\":7748,\"bypass\":true}"}
+{"timestamp":"2026-01-28T08:05:10.652Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:05:10.716Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\src/components/TechStack.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-28T08:05:10.718Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\src/components/Features.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-28T08:05:10.743Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\src/components/Pricing.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-28T08:05:10.920Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:05:11.152Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:05:13.526Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":3391056,\"bypass\":true}"}
+{"timestamp":"2026-01-28T08:05:13.870Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\src\\components\\TechStack.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-28T08:05:13.872Z","operation":"shell:execute","target":"npx tsc --noEmit --pretty false --project . --file \"G:\\thProject\\test-demo\\src\\components\\Pricing.tsx\"","success":true,"detail":"{\"exitCode\":1,\"outputLength\":49,\"errorLength\":0}"}
+{"timestamp":"2026-01-28T08:05:18.922Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":3391056,\"bypass\":true}"}
+{"timestamp":"2026-01-28T08:05:28.779Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:05:29.007Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:05:29.237Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:05:29.482Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:05:29.708Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:05:29.938Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:05:31.333Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src\\data\\cta.json","success":true,"detail":"{\"size\":381,\"bypass\":true}"}
+{"timestamp":"2026-01-28T08:05:32.580Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src\\data\\features.json","success":true,"detail":"{\"size\":4510,\"bypass\":true}"}
+{"timestamp":"2026-01-28T08:05:33.570Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src\\data\\footer.json","success":true,"detail":"{\"size\":1166,\"bypass\":true}"}
+{"timestamp":"2026-01-28T08:05:34.671Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src\\data\\hero.json","success":true,"detail":"{\"size\":815,\"bypass\":true}"}
+{"timestamp":"2026-01-28T08:05:35.225Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src\\data\\index.ts","success":true,"detail":"{\"size\":502,\"bypass\":true}"}
+{"timestamp":"2026-01-28T08:05:36.087Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src\\data\\license.json","success":true,"detail":"{\"size\":3240,\"bypass\":true}"}
+{"timestamp":"2026-01-28T08:05:36.785Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src\\data\\navbar.json","success":true,"detail":"{\"size\":386,\"bypass\":true}"}
+{"timestamp":"2026-01-28T08:05:37.445Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src\\data\\stats.json","success":true,"detail":"{\"size\":430,\"bypass\":true}"}
+{"timestamp":"2026-01-28T08:05:38.133Z","operation":"file:read","target":"G:\\thProject\\test-demo\\src\\data\\techstack.json","success":true,"detail":"{\"size\":2510,\"bypass\":true}"}
+{"timestamp":"2026-01-28T08:05:46.155Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/workspace-state.json","success":true,"detail":"{\"size\":517,\"bypass\":true}"}
+{"timestamp":"2026-01-28T08:05:46.158Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":3391056,\"bypass\":true}"}
+{"timestamp":"2026-01-28T08:06:08.612Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":3391070,\"bypass\":true}"}
+{"timestamp":"2026-01-28T08:06:13.875Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":3392105,\"bypass\":true}"}
+{"timestamp":"2026-01-28T08:06:19.262Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:06:19.488Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:06:19.722Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:06:19.835Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":3392105,\"bypass\":true}"}
+{"timestamp":"2026-01-28T08:06:20.405Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:06:20.642Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:06:20.871Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:06:21.126Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:06:21.354Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:06:21.586Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:06:22.785Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:06:23.015Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:06:23.253Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:06:24.276Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:06:24.512Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:06:24.696Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:06:24.742Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:06:24.925Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:06:25.164Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:06:25.191Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:06:25.422Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:06:25.651Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:06:27.370Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:06:27.598Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:06:27.829Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:06:32.008Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":3395592,\"bypass\":true}"}
+{"timestamp":"2026-01-28T08:06:51.339Z","operation":"terminal:interactive","target":"terminal:create","success":true,"detail":"{\"id\":\"c61bfd1b-8176-4bab-8d47-4eca88e4d976\",\"cwd\":\"G:\\\\thProject\\\\test-demo\",\"shell\":\"powershell.exe\"}"}
+{"timestamp":"2026-01-28T08:06:59.736Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:06:59.974Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:07:00.060Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:07:00.209Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:07:00.288Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:07:00.370Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:07:00.519Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:07:00.599Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:07:00.829Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:07:01.387Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:07:01.614Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:07:01.853Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:07:05.053Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:07:05.283Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:07:05.516Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:07:06.238Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:07:06.477Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:07:06.571Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:07:06.713Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:07:06.808Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:07:07.043Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:07:07.275Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:07:07.517Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:07:07.749Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:07:08.471Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:07:08.700Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:07:08.926Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:07:14.891Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/workspace-state.json","success":true,"detail":"{\"size\":517,\"bypass\":true}"}
+{"timestamp":"2026-01-28T08:07:14.894Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":3398756,\"bypass\":true}"}
+{"timestamp":"2026-01-28T08:07:19.997Z","operation":"file:write","target":"G:\\thProject\\test-demo/.adnify/sessions.json","success":true,"detail":"{\"size\":3399650,\"bypass\":true}"}
+{"timestamp":"2026-01-28T08:09:01.000Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:09:01.230Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:09:01.490Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:09:02.006Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:09:02.232Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:09:02.457Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:13:14.609Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:13:14.839Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:13:15.071Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:13:15.467Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:13:15.696Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:13:15.934Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:13:29.022Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:13:29.249Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:13:29.479Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:13:34.858Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:13:35.097Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:13:35.326Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:13:35.756Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:13:35.995Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:13:36.220Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:13:38.024Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:13:38.260Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}
+{"timestamp":"2026-01-28T08:13:38.496Z","operation":"git:exec","target":"rev-parse --is-inside-work-tree","success":true,"detail":"{\"exitCode\":128}"}

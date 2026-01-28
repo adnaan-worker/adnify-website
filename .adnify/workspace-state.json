@@ -1,17 +1,19 @@
 {
-  "openFiles": [
-    "E:\\Project\\website\\assets/css/styles.css",
-    "E:\\Project\\website\\script.js"
-  ],
-  "activeFile": "E:\\Project\\website\\script.js",
+  "openFiles": [],
+  "activeFile": null,
   "expandedFolders": [
-    "E:\\Project\\website"
+    "G:\\thProject\\test-demo\\ai-ide",
+    "G:\\thProject\\test-demo\\ai-ide\\src",
+    "G:\\thProject\\test-demo\\ai-ide\\src\\components",
+    "G:\\thProject\\test-demo\\ai-ide\\src\\app",
+    "G:\\thProject\\test-demo\\src",
+    "G:\\thProject\\test-demo\\src\\data"
   ],
   "scrollPositions": {},
   "cursorPositions": {},
   "layout": {
     "sidebarWidth": 260,
-    "chatWidth": 453,
+    "chatWidth": 450,
     "terminalVisible": false,
     "terminalLayout": "tabs"
   }

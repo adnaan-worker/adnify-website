@@ -1,0 +1,124 @@
+{
+  "coreFeatures": [
+    {
+      "id": "visual",
+      "icon": "sparkle",
+      "title": "极致视觉体验",
+      "description": "多主题支持：Adnify Dark、Midnight、Cyberpunk、Dawn。玻璃拟态设计，沉浸式布局。",
+      "gradient": "from-purple-500/30 to-pink-500/30",
+      "color": "text-purple-400"
+    },
+    {
+      "id": "agent",
+      "icon": "shield",
+      "title": "AI Agent 深度集成",
+      "description": "三种工作模式：Chat / Agent / Plan。23 个内置工具，支持 OpenAI、Claude、Gemini、DeepSeek 等。",
+      "gradient": "from-blue-500/30 to-cyan-500/30",
+      "color": "text-blue-400"
+    },
+    {
+      "id": "context",
+      "icon": "users",
+      "title": "智能上下文",
+      "description": "@文件名、@codebase、@git、@terminal、@symbols 引用，上下文理解更精准。",
+      "gradient": "from-cyan-500/30 to-teal-500/30",
+      "color": "text-cyan-400"
+    },
+    {
+      "id": "mcp",
+      "icon": "lightning",
+      "title": "MCP 协议支持",
+      "description": "集成 Model Context Protocol，支持外部工具扩展，MCP 富文本渲染。",
+      "gradient": "from-pink-500/30 to-rose-500/30",
+      "color": "text-pink-400"
+    },
+    {
+      "id": "professional",
+      "icon": "database",
+      "title": "专业开发体验",
+      "description": "Monaco Editor + xterm.js 终端 + typescript-language-server，支持 Git、向量存储。",
+      "gradient": "from-amber-500/30 to-orange-500/30",
+      "color": "text-amber-400"
+    },
+    {
+      "id": "crossplatform",
+      "icon": "cpu",
+      "title": "跨平台支持",
+      "description": "Electron + React + TypeScript + Vite 构建，支持 Windows、macOS、Linux。",
+      "gradient": "from-emerald-500/30 to-green-500/30",
+      "color": "text-emerald-400"
+    }
+  ],
+  "uniqueAdvantages": [
+    {
+      "icon": "🔄",
+      "title": "9策略智能替换",
+      "description": "AI编辑代码时，9种容错匹配策略自动尝试，大幅提升编辑成功率。",
+      "gradient": "from-orange-500/30 to-amber-500/30",
+      "color": "text-orange-400"
+    },
+    {
+      "icon": "⚡",
+      "title": "智能并行执行",
+      "description": "依赖感知的并行工具执行，多文件操作速度提升2-5倍。",
+      "gradient": "from-cyan-500/30 to-blue-500/30",
+      "color": "text-cyan-400"
+    },
+    {
+      "icon": "🧠",
+      "title": "4级上下文压缩",
+      "description": "渐进式4级压缩，支持真正的超长对话，不会因上下文溢出中断。",
+      "gradient": "from-purple-500/30 to-pink-500/30",
+      "color": "text-purple-400"
+    },
+    {
+      "icon": "📸",
+      "title": "检查点系统",
+      "description": "AI修改前自动创建快照，支持按消息粒度回滚，比Git更细粒度。",
+      "gradient": "from-blue-500/30 to-indigo-500/30",
+      "color": "text-blue-400"
+    },
+    {
+      "icon": "🌿",
+      "title": "对话分支",
+      "description": "从任意消息创建分支，探索不同方案，类似Git分支用于AI对话。",
+      "gradient": "from-emerald-500/30 to-teal-500/30",
+      "color": "text-emerald-400"
+    },
+    {
+      "icon": "🔁",
+      "title": "智能循环检测",
+      "description": "多维度循环检测，避免Token浪费，及时发现并中断无效循环。",
+      "gradient": "from-rose-500/30 to-red-500/30",
+      "color": "text-rose-400"
+    },
+    {
+      "icon": "🩺",
+      "title": "自动错误修复",
+      "description": "Agent执行后自动检测代码错误，调用LSP获取诊断信息并修复。",
+      "gradient": "from-pink-500/30 to-fuchsia-500/30",
+      "color": "text-pink-400"
+    },
+    {
+      "icon": "💾",
+      "title": "AI记忆系统",
+      "description": "用户手动添加项目级记忆，全量注入到上下文，让AI记住项目约定。",
+      "gradient": "from-amber-500/30 to-yellow-500/30",
+      "color": "text-amber-400"
+    },
+    {
+      "icon": "🎬",
+      "title": "流式编辑预览",
+      "description": "AI生成代码时实时显示Diff，边生成边预览变更，无需等待。",
+      "gradient": "from-violet-500/30 to-purple-500/30",
+      "color": "text-violet-400"
+    },
+    {
+      "icon": "🎭",
+      "title": "角色定制工具",
+      "description": "不同角色拥有专属工具集，如UI/UX设计师的uiux_search设计知识库。",
+      "gradient": "from-teal-500/30 to-cyan-500/30",
+      "color": "text-teal-400"
+    }
+  ]
+}

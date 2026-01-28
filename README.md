@@ -1,9 +1,11 @@
 # Adnify
 
+**中文** | [English](README_EN.md)
+
 > **Connect AI to Your Code.**
 > 一个拥有极致视觉体验、深度集成 AI Agent 的下一代代码编辑器。
 
-![License](https://img.shields.io/badge/license-Custom%20License-blue.svg) ![Electron](https://img.shields.io/badge/Electron-33.0-blueviolet) ![React](https://img.shields.io/badge/React-18-blue) ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)
+![License](https://img.shields.io/badge/license-Custom%20License-blue.svg) ![Electron](https://img.shields.io/badge/Electron-39.0-blueviolet) ![React](https://img.shields.io/badge/React-18-blue) ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)
 
 Adnify 不仅仅是一个编辑器，它是你的**智能编程伴侣**。它复刻并超越了传统 IDE 的体验，融合了 Cyberpunk 玻璃拟态设计风格，内置强大的 AI Agent，支持从代码生成到文件操作的全流程自动化。
 
@@ -25,51 +27,7 @@ Adnify 不仅仅是一个编辑器，它是你的**智能编程伴侣**。它复
 
 ---
 
-<details>
-<summary><b>📋 更新日志</b>（点击展开）</summary>
-
-| 日期 | 版本 | 更新内容 |
-|:---|:---|:---|
-| 2026-01-10 | v1.5.1 | 🔧 **构建修复**: 修复 CI 构建内存溢出问题，降级 electron-builder 确保稳定性 |
-| 2026-01-10 | - | 🎨 **UI 修复**: 修复 Regenerate 按钮弹出框位置和国际化问题 |
-| 2026-01-10 | - | � **编o辑器修复**: 修复 AI 编辑文件后的"外部修改"对话框问题 |
-| 2026-01-10 | - | 🔌 **Monaco 兼容**: 修复 Monaco Editor v0.55 InlineCompletions API 兼容性 |
-| 2026-01-10 | v1.5.0 | 🔄 **自动更新系统**: 支持在线检查更新，安装版自动下载安装，便携版提示手动下载 |
-| 2026-01-10 | - | 🧠 **上下文压缩优化**: 4 级压缩策略，L4 自动切换新会话并携带摘要继续对话 |
-| 2026-01-10 | - | 📊 **压缩状态可视化**: 状态栏显示压缩级别和进度动画 |
-| 2026-01-09 | v1.4.0 | 🏗️ **Agent 架构重构**: 统一上下文管理，优化 Prompt 系统和记忆管理 |
-| 2026-01-09 | - | 🖼️ **视觉能力**: LLM 支持图片输入，消息适配器重构 |
-| 2026-01-09 | - | ✨ **UI 增强**: 卡片 shimmer 效果、滚动阴影、毛玻璃面板优化 |
-| 2026-01-08 | - | � **工具执行统类计**: 增强日志记录，显示执行耗时和性能数据 |
-| 2026-01-06 | v1.3.8 | 🔧 **类型系统重构**: 统一 `@shared/types` 为类型单一来源，消除重复定义 |
-| 2026-01-06 | - | �️ *日*LSP 优化**: 修复 Deno LSP 错误注册问题，TypeScript 项目不再误触发 Deno |
-| 2026-01-06 | - | � **日志系 统**: 生产环境自动禁用控制台日志，支持环境检测 |
-| 2026-01-06 | - | 🔄 **MCP 初始化**: 修复 MCP 服务重复初始化问题 |
-| 2026-01-05 | v1.3.7 | 🌳 **Tree-sitter 扩展**: 新增 20+ 语言的语法解析支持 (Rust, Go, C/C++, Java 等) |
-| 2026-01-05 | - | � **LSP 服务器*目录**: 支持自定义 LSP 服务器安装路径 |
-| 2026-01-05 | - | � ***智能根目录检测**: LSP 自动识别 monorepo 子项目根目录 |
-| 2026-01-05 | - | � **状态栏 LSP  指示器**: 显示当前文件的 LSP 服务器状态 |
-| 2026-01-04 | - | � **智能替换*理*: Agent 文件编辑支持多策略匹配，提高替换成功率 |
-| 2026-01-04 | - | 🗑️ **工作区管理**: 支持从最近列表中移除工作区 |
-| 2026-01-03 | - | � **TLoken 限制配置**: 可配置上下文 Token 限制，优化长对话体验 |
-| 2026-01-03 | - | �️ **LLM动 适配层重构**: 统一协议处理，支持更多自定义 API |
-| 2026-01-03 | - | � ***引导向导动画**: 使用 Framer Motion 增强引导页动画效果 |
-| 2026-01-03 | - | 🏠 **欢迎页面**: 新增空窗口欢迎页，快速打开项目或创建新项目 |
-| 2026-01-02 | v1.3.0 | � o**模型选择器重构**: 聊天面板新增模型/模式下拉选择器，支持按厂商分组快速切换模型 |
-| 2026-01-02 | - | 🏗️ **Provider 架构统一**: 重构厂商配置存储，内置和自定义厂商统一管理 |
-| 2026-01-02 | - | ✨ **自定义 Embedding 提供商**: 支持配置自定义 Embedding API |
-| 2026-01-02 | - | 🔍 **混合搜索 (Hybrid Search)**: 实现 RRF 结果融合的语义+关键词混合搜索 |
-| 2026-01-02 | - | ⚡ **Embedding 限流**: 添加速率限制和重试机制，避免 API 限流 |
-| 2026-01-02 | - | �️ **Riesult 类型**: 统一 IPC 处理器返回类型，提升错误处理一致性 |
-| 2026-01-02 | - | � **E式ditor 组件拆分**: 提取 SafeDiffEditor、TabContextMenu、EditorWelcome 等子组件 |
-| 2026-01-02 | - | 🚀 **流式缓冲优化**: 使用 requestAnimationFrame 优化流式输出刷新时机 |
-| 2026-01-01 | v1.2.9 | 🔌 **MCP 协议支持**: 集成 Model Context Protocol，支持外部工具扩展 |
-| 2026-01-01 | - | � **MCPU 富文本渲染**: 工具执行结果支持 Markdown/图片/表格等富文本展示 |
-| 2026-01-01 | - | 🎯 **UI/UX 设计系统**: 新增设计系统数据库和工具集成 |
-| 2025-12-31 | v1.2.8 | 🔒 **安全增强**: 优化文件监听器和终端命令执行安全性 |
-| 2025-12-31 | v1.2.7 | 🍞 **Toast 系统重构**: 全新的通知提示系统 |
-
-</details>
+📋 **[查看完整更新日志 →](CHANGELOG.md)**
 
 ---
 
@@ -98,8 +56,10 @@ Adnify 不仅仅是一个编辑器，它是你的**智能编程伴侣**。它复
 - **玻璃拟态设计**: 全局采用毛玻璃风格，配合微妙的流光边框和动态阴影
 - **沉浸式布局**: 无框窗口、Chrome 风格标签页、面包屑导航
 
-![alt text](image.png)
+![alt text](images/theme1.png)
 ![alt text](images/theme2.png)
+![alt text](images/theme3.png)
+![alt text](images/theme4.png)
 
 ### 🤖 AI Agent 深度集成
 
@@ -111,7 +71,7 @@ Adnify 不仅仅是一个编辑器，它是你的**智能编程伴侣**。它复
 - **23 个内置工具**: AI 可自主调用的完整工具集
   - 文件读取: `read_file`, `read_multiple_files`, `list_directory`, `get_dir_tree`
   - 文件写入: `write_file`, `edit_file`, `replace_file_content`, `create_file_or_folder`, `delete_file_or_folder`
-  - 搜索功能: `search_files`, `search_in_file`, `codebase_search`
+  - 搜索功能: `search_files`, `codebase_search`
   - LSP 分析: `find_references`, `go_to_definition`, `get_hover_info`, `get_document_symbols`, `get_lint_errors`
   - 终端执行: `run_command`
   - 网络功能: `web_search`, `read_url`
@@ -632,7 +592,7 @@ adnify/
 
 ## 🛠 技术栈
 
-- **框架**: Electron 33 + React 18 + TypeScript 5
+- **框架**: Electron 39 + React 18 + TypeScript 5
 - **构建**: Vite 6 + electron-builder
 - **编辑器**: Monaco Editor
 - **终端**: xterm.js + node-pty + WebGL Addon
@@ -645,6 +605,16 @@ adnify/
 - **验证**: Zod
 
 ---
+
+## Star History
+
+<a href="https://www.star-history.com/#adnaan-worker/adnify&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=adnaan-worker/adnify&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=adnaan-worker/adnify&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=adnaan-worker/adnify&type=date&legend=top-left" />
+ </picture>
+</a>
 
 ## 🤝 贡献与反馈
 
