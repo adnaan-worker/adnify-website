@@ -1,13 +1,21 @@
 {
-  "openFiles": [],
-  "activeFile": null,
+  "openFiles": [
+    "E:\\Project\\website\\package.json",
+    "E:\\Project\\website\\IMAGE_REQUIREMENTS.md",
+    "E:\\Project\\website\\src\\app\\globals.css",
+    "E:\\Project\\website\\src\\app\\layout.tsx"
+  ],
+  "activeFile": "E:\\Project\\website\\src\\app\\globals.css",
   "expandedFolders": [
+    "E:\\Project\\website",
     "G:\\thProject\\test-demo\\ai-ide",
     "G:\\thProject\\test-demo\\ai-ide\\src",
     "G:\\thProject\\test-demo\\ai-ide\\src\\components",
     "G:\\thProject\\test-demo\\ai-ide\\src\\app",
     "G:\\thProject\\test-demo\\src",
-    "G:\\thProject\\test-demo\\src\\data"
+    "G:\\thProject\\test-demo\\src\\data",
+    "E:\\Project\\website\\public",
+    "E:\\Project\\website\\src"
   ],
   "scrollPositions": {},
   "cursorPositions": {},

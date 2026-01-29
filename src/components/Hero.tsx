@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef } from 'react';
+import Image from 'next/image';
 import CodeEditor from './CodeEditor';
 
 export default function Hero() {
@@ -88,10 +89,29 @@ export default function Hero() {
         </button>
       </div>
 
-      {/* Code editor showcase */}
-      <div className="relative z-10 w-full max-w-5xl mx-auto animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
+      {/* Product screenshot showcase */}
+      <div className="relative z-10 w-full max-w-6xl mx-auto animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
         <GlowCard>
-          <CodeEditor />
+          <div className="relative rounded-xl overflow-hidden border border-white/10 bg-[#0d1117]">
+            {/* Window header */}
+            <div className="flex items-center gap-2 px-4 py-3 bg-[#161b22] border-b border-white/5">
+              <div className="flex gap-2">
+                <div className="w-3 h-3 rounded-full bg-[#ff5f56]" />
+                <div className="w-3 h-3 rounded-full bg-[#ffbd2e]" />
+                <div className="w-3 h-3 rounded-full bg-[#27c93f]" />
+              </div>
+            </div>
+            {/* Product screenshot */}
+            <div className="relative aspect-[16/10] bg-gradient-to-br from-[#0d1117] to-[#161b22]">
+              <Image
+                src="/images/hero-screenshot.png"
+                alt="Adnify IDE 主界面"
+                fill
+                className="object-contain"
+                priority
+              />
+            </div>
+          </div>
         </GlowCard>
       </div>
 

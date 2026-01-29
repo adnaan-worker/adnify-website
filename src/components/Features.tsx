@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from 'react';
+import Image from 'next/image';
 import featuresData from '@/data/features.json';
 
 export default function Features() {
@@ -66,10 +67,10 @@ export default function Features() {
           ))}
         </div>
 
-        {/* Interactive demo section */}
-        <div className="mt-32 relative">
-          <InteractiveDemo />
-        </div>
+      {/* Feature screenshots showcase */}
+      <div className="mt-32 relative">
+        <FeatureShowcase />
+      </div>
 
         {/* Unique Advantages section */}
         <div className="mt-32">
@@ -165,7 +166,79 @@ function FeatureIcon({ name }: { name: string }) {
   return icons[name] || icons.sparkle;
 }
 
-// Interactive demo component
+// Feature showcase with screenshots
+function FeatureShowcase() {
+  const [activeTab, setActiveTab] = useState(0);
+
+  const tabs = [
+    {
+      id: 'themes',
+      label: '多主题',
+      description: '4套精心设计的主题',
+      image: '/images/feature-themes.png',
+    },
+    {
+      id: 'agent',
+      label: 'AI Agent',
+      description: '三种工作模式',
+      image: '/images/feature-agent.png',
+    },
+    {
+      id: 'terminal',
+      label: '集成终端',
+      description: '完整终端体验',
+      image: '/images/feature-terminal.png',
+    },
+    {
+      id: 'git',
+      label: 'Git 支持',
+      description: '完整的版本控制',
+      image: '/images/feature-git.png',
+    },
+  ];
+
+  return (
+    <div className="rounded-3xl overflow-hidden border border-white/10 bg-black/50 backdrop-blur-xl">
+      {/* Tabs */}
+      <div className="flex items-center justify-center gap-2 p-4 border-b border-white/5">
+        {tabs.map((tab, index) => (
+          <button
+            key={tab.id}
+            onClick={() => setActiveTab(index)}
+            className={`px-6 py-2.5 rounded-full text-sm font-medium transition-all cursor-pointer ${
+              activeTab === index
+                ? 'bg-white text-black'
+                : 'bg-white/5 text-gray-400 hover:bg-white/10 hover:text-white'
+            }`}
+          >
+            {tab.label}
+          </button>
+        ))}
+      </div>
+
+      {/* Screenshot */}
+      <div className="p-8">
+        <div className="relative aspect-[16/9] rounded-2xl overflow-hidden border border-white/10 bg-[#0d1117]">
+          <Image
+            src={tabs[activeTab].image}
+            alt={tabs[activeTab].description}
+            fill
+            className="object-contain transition-opacity duration-500"
+          />
+          {/* Overlay gradient */}
+          <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
+          {/* Caption */}
+          <div className="absolute bottom-6 left-6 right-6">
+            <h3 className="text-xl font-semibold text-white mb-1">{tabs[activeTab].label}</h3>
+            <p className="text-gray-400">{tabs[activeTab].description}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// Interactive demo component (kept as fallback)
 function InteractiveDemo() {
   const [demoStep, setDemoStep] = useState(0);
 
@@ -192,15 +265,15 @@ function InteractiveDemo() {
               key={index}
               onClick={() => setDemoStep(index)}
               className={`w-3 h-3 rounded-full transition-all cursor-pointer ${
-                demoStep === index 
-                  ? 'bg-white scale-125' 
+                demoStep === index
+                  ? 'bg-white scale-125'
                   : 'bg-white/20 hover:bg-white/40'
               }`}
             />
           ))}
         </div>
       </div>
-      
+
       <div className="p-8">
         <div className="flex items-center gap-4 mb-6">
           <div className="flex-1 h-px bg-white/10" />
