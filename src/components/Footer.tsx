@@ -7,56 +7,63 @@ export default function Footer() {
   const [email, setEmail] = useState('');
 
   const footerLinks = {
-    product: ['Features', 'Pricing', 'Documentation', 'Changelog', 'Status', 'Integrations'],
-    company: ['About', 'Blog', 'Careers', 'Press', 'Contact', 'Partners'],
-    legal: ['Privacy', 'Terms', 'Security', 'Cookies', 'Licenses'],
-    resources: ['Help Center', 'Community', 'Events', 'Webinars', 'Newsletter'],
+    product: ['Features', 'Pricing', 'Documentation', 'Changelog', 'Status'],
+    company: ['About', 'Blog', 'Careers', 'Contact'],
+    legal: ['Privacy', 'Terms', 'Security', 'Licenses'],
+    resources: ['Help Center', 'Community', 'Newsletter'],
   };
 
   return (
-    <footer className="py-20 px-6 border-t border-white/5 bg-black/50">
-      <div className="max-w-7xl mx-auto">
-        {/* Newsletter signup */}
-        <div className="flex flex-col lg:flex-row items-center justify-between gap-8 pb-12 border-b border-white/5 mb-12">
-          <div className="text-center lg:text-left">
-            <h3 className="text-xl font-semibold text-white mb-2">订阅更新</h3>
-            <p className="text-gray-400">获取 Adnify 最新动态和开发资讯。</p>
-          </div>
-          <div className="flex gap-3 w-full lg:w-auto">
-            <input
-              type="email"
-              placeholder="输入你的邮箱"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              className="flex-1 lg:w-64 px-4 py-3 rounded-full bg-white/5 border border-white/10 text-white placeholder-gray-500 focus:outline-none focus:border-white/30 transition-colors"
-            />
-            <button className="px-6 py-3 bg-white text-black rounded-full font-medium hover:bg-gray-100 transition-all cursor-pointer">
-              订阅
-            </button>
+    <footer className="py-20 px-6 border-t border-border-subtle relative">
+      {/* Background */}
+      <div className="absolute inset-0 bg-gradient-to-b from-background-elevated to-background" />
+
+      <div className="max-w-7xl mx-auto relative z-10">
+        {/* Newsletter */}
+        <div className="glass-elevated rounded-3xl p-8 mb-16">
+          <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
+            <div className="text-center lg:text-left">
+              <h3 className="text-2xl font-bold text-white mb-2 font-heading">订阅更新</h3>
+              <p className="text-secondary">获取 Adnify 最新动态和开发资讯</p>
+            </div>
+            <div className="flex gap-3 w-full lg:w-auto">
+              <input
+                type="email"
+                placeholder="输入你的邮箱"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                className="flex-1 lg:w-80 px-5 py-4 rounded-xl bg-surface-primary border border-border-subtle text-white placeholder-muted focus:outline-none focus:border-aurora-cyan transition-colors"
+              />
+              <button className="px-6 py-4 bg-gradient-to-r from-aurora-cyan to-aurora-purple text-black rounded-xl font-semibold hover:shadow-lg hover:shadow-aurora-cyan/30 transition-all cursor-pointer">
+                订阅
+              </button>
+            </div>
           </div>
         </div>
 
-        {/* Links grid */}
-        <div className="grid grid-cols-2 md:grid-cols-5 gap-8 mb-12">
+        {/* Links */}
+        <div className="grid grid-cols-2 md:grid-cols-5 gap-8 mb-16">
           {/* Brand */}
           <div className="col-span-2 md:col-span-1">
-            <Link href="/" className="flex items-center gap-2 mb-4">
-              <img 
-                src="/favicon.svg" 
-                alt="Adnify Logo" 
-                className="w-8 h-8 rounded-lg"
-              />
-              <span className="text-lg font-semibold text-white">Adnify</span>
+            <Link href="/" className="flex items-center gap-3 mb-6">
+              <div className="relative w-10 h-10">
+                <div className="absolute inset-0 bg-gradient-to-br from-aurora-cyan to-aurora-purple rounded-xl opacity-80" />
+                <div className="absolute inset-[2px] bg-background rounded-lg" />
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <span className="text-white font-bold text-lg font-heading">A</span>
+                </div>
+              </div>
+              <span className="text-lg font-semibold text-white font-heading">Adnify</span>
             </Link>
-            <p className="text-sm text-gray-400 mb-4">
-              一个拥有极致视觉体验、深度集成 AI Agent 的下一代代码编辑器。
+            <p className="text-sm text-secondary mb-6">
+              一个拥有极致视觉体验、深度集成 AI Agent 的下一代代码编辑器
             </p>
             <div className="flex gap-3">
               <a
                 href="https://github.com/adnaan-worker/adnify"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-9 h-9 rounded-full bg-white/5 flex items-center justify-center text-gray-400 hover:text-white hover:bg-white/10 transition-all cursor-pointer"
+                className="w-10 h-10 rounded-xl glass flex items-center justify-center text-secondary hover:text-aurora-cyan hover:border-aurora-cyan transition-all cursor-pointer"
                 aria-label="GitHub"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -67,7 +74,7 @@ export default function Footer() {
                 href="https://gitee.com/adnaan/adnify"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-9 h-9 rounded-full bg-white/5 flex items-center justify-center text-gray-400 hover:text-white hover:bg-white/10 transition-all cursor-pointer"
+                className="w-10 h-10 rounded-xl glass flex items-center justify-center text-secondary hover:text-aurora-cyan hover:border-aurora-cyan transition-all cursor-pointer"
                 aria-label="Gitee"
               >
                 <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
@@ -79,11 +86,11 @@ export default function Footer() {
 
           {/* Product */}
           <div>
-            <h4 className="text-white font-medium mb-4">产品</h4>
+            <h4 className="text-white font-semibold mb-4 text-sm">产品</h4>
             <ul className="space-y-3">
               {footerLinks.product.map((link) => (
                 <li key={link}>
-                  <Link href="#" className="text-sm text-gray-400 hover:text-white transition-colors">
+                  <Link href="#" className="text-sm text-secondary hover:text-aurora-cyan transition-colors">
                     {link}
                   </Link>
                 </li>
@@ -93,11 +100,11 @@ export default function Footer() {
 
           {/* Company */}
           <div>
-            <h4 className="text-white font-medium mb-4">公司</h4>
+            <h4 className="text-white font-semibold mb-4 text-sm">公司</h4>
             <ul className="space-y-3">
               {footerLinks.company.map((link) => (
                 <li key={link}>
-                  <Link href="#" className="text-sm text-gray-400 hover:text-white transition-colors">
+                  <Link href="#" className="text-sm text-secondary hover:text-aurora-cyan transition-colors">
                     {link}
                   </Link>
                 </li>
@@ -107,11 +114,11 @@ export default function Footer() {
 
           {/* Legal */}
           <div>
-            <h4 className="text-white font-medium mb-4">法律</h4>
+            <h4 className="text-white font-semibold mb-4 text-sm">法律</h4>
             <ul className="space-y-3">
               {footerLinks.legal.map((link) => (
                 <li key={link}>
-                  <Link href="#" className="text-sm text-gray-400 hover:text-white transition-colors">
+                  <Link href="#" className="text-sm text-secondary hover:text-aurora-cyan transition-colors">
                     {link}
                   </Link>
                 </li>
@@ -121,11 +128,11 @@ export default function Footer() {
 
           {/* Resources */}
           <div>
-            <h4 className="text-white font-medium mb-4">资源</h4>
+            <h4 className="text-white font-semibold mb-4 text-sm">资源</h4>
             <ul className="space-y-3">
               {footerLinks.resources.map((link) => (
                 <li key={link}>
-                  <Link href="#" className="text-sm text-gray-400 hover:text-white transition-colors">
+                  <Link href="#" className="text-sm text-secondary hover:text-aurora-cyan transition-colors">
                     {link}
                   </Link>
                 </li>
@@ -134,32 +141,24 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Bottom bar */}
-        <div className="flex flex-col md:flex-row items-center justify-between pt-8 border-t border-white/5">
-          <p className="text-sm text-gray-500 mb-4 md:mb-0">
-            © {new Date().getFullYear()} Adnify. Made by <a href="https://github.com/adnaan-worker" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">adnaan</a>. All rights reserved.
+        {/* Bottom */}
+        <div className="flex flex-col md:flex-row items-center justify-between pt-8 border-t border-border-subtle">
+          <p className="text-sm text-muted mb-4 md:mb-0">
+            © {new Date().getFullYear()} Adnify. Made with <span className="text-aurora-magenta">♥</span> by{' '}
+            <a href="https://github.com/adnaan-worker" target="_blank" rel="noopener noreferrer" className="text-aurora-cyan hover:underline">
+              adnaan
+            </a>
           </p>
-          <div className="flex items-center gap-6 flex-wrap justify-center md:justify-end">
-            <a href="mailto:adnaan.worker@gmail.com" className="text-sm text-gray-500 hover:text-white transition-colors flex items-center gap-2">
+          <div className="flex items-center gap-6">
+            <a href="mailto:adnaan.worker@gmail.com" className="text-sm text-muted hover:text-aurora-cyan transition-colors flex items-center gap-2">
               <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                 <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
               </svg>
               adnaan.worker@gmail.com
             </a>
-            <div className="flex items-center gap-6">
-              <a href="https://gitee.com/adnaan/adnify" target="_blank" rel="noopener noreferrer" className="text-sm text-gray-500 hover:text-white transition-colors">
-                Gitee
-              </a>
-              <a href="https://github.com/adnaan-worker/adnify" target="_blank" rel="noopener noreferrer" className="text-sm text-gray-500 hover:text-white transition-colors">
-                GitHub
-              </a>
-              <a href="https://github.com/adnaan-worker/adnify/issues" target="_blank" rel="noopener noreferrer" className="text-sm text-gray-500 hover:text-white transition-colors">
-                Issues
-              </a>
-            </div>
             <div className="flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-green-500" />
-              <span className="text-sm text-gray-500">系统运行正常</span>
+              <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
+              <span className="text-sm text-muted">系统正常</span>
             </div>
           </div>
         </div>

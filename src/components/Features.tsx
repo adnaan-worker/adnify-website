@@ -5,120 +5,123 @@ import Image from 'next/image';
 import featuresData from '@/data/features.json';
 
 export default function Features() {
-  const [activeFeature, setActiveFeature] = useState(0);
-
-  // 从 JSON 导入数据
   const { coreFeatures, uniqueAdvantages } = featuresData;
 
   return (
     <section id="features" className="py-32 px-6 relative">
-      {/* Background gradient */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black via-blue-950/10 to-black pointer-events-none" />
-      
-      <div className="max-w-7xl mx-auto relative">
-        {/* Section header */}
+      {/* Background */}
+      <div className="absolute inset-0">
+        <div className="absolute inset-0 bg-gradient-to-b from-background-elevated to-background" />
+        {/* Aurora Orbs */}
+        <div 
+          className="aurora-orb aurora-orb-purple"
+          style={{
+            width: '600px',
+            height: '600px',
+            top: '20%',
+            left: '-10%',
+            animationDelay: '-3s'
+          }}
+        />
+        <div 
+          className="aurora-orb aurora-orb-cyan"
+          style={{
+            width: '500px',
+            height: '500px',
+            bottom: '10%',
+            right: '-5%',
+            animationDelay: '-8s'
+          }}
+        />
+      </div>
+
+      <div className="max-w-7xl mx-auto relative z-10">
+        {/* Header */}
         <div className="text-center mb-20">
-          <span className="text-sm font-medium text-gray-500 mb-4 block animate-fade-in">核心特性</span>
-          <h2 className="text-4xl md:text-5xl font-semibold text-white mb-6 tracking-tight animate-fade-in-up">
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass mb-6">
+            <span className="w-2 h-2 rounded-full bg-aurora-purple animate-pulse" />
+            <span className="text-sm font-medium text-secondary">核心特性</span>
+          </div>
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading">
             为开发者而生的
             <br />
-            <span className="text-gray-400">下一代代码编辑器</span>
+            <span className="gradient-text">下一代代码编辑器</span>
           </h2>
-          <p className="text-xl text-gray-400 max-w-2xl mx-auto animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
-            融合 Cyberpunk 玻璃拟态设计，内置强大 AI Agent，支持全流程自动化开发。
+          <p className="text-lg text-secondary max-w-2xl mx-auto">
+            融合 Cyberpunk 玻璃拟态设计，内置强大 AI Agent，支持全流程自动化开发
           </p>
         </div>
 
-        {/* Feature cards */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {/* Features Grid */}
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-32">
           {coreFeatures.map((feature, index) => (
-            <div 
+            <div
               key={feature.id}
-              className="group relative p-8 rounded-3xl bg-white/3 border border-white/5 hover:bg-white/5 hover:border-white/10 transition-all duration-500 animate-fade-in-up"
-              style={{ animationDelay: `${0.1 + index * 0.05}s` }}
+              className="card-premium group animate-fade-in-up"
+              style={{ animationDelay: `${index * 0.1}s` }}
             >
-              {/* Gradient glow on hover */}
-              <div className={`absolute inset-0 rounded-3xl bg-gradient-to-br ${feature.gradient} opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-xl`} />
-              
-              <div className="relative">
-                {/* Icon */}
-                <div className={`w-14 h-14 rounded-2xl bg-gradient-to-br ${feature.gradient} flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-3 transition-all duration-500`}>
-                  <div className={feature.color}>
-                    <FeatureIcon name={feature.icon} />
-                  </div>
+              {/* Icon */}
+              <div className={`w-14 h-14 rounded-2xl bg-gradient-to-br ${feature.gradient} flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-3 transition-all duration-500`}>
+                <div className={feature.color}>
+                  <FeatureIcon name={feature.icon} />
                 </div>
-                
-                {/* Content */}
-                <h3 className="text-xl font-semibold text-white mb-3 group-hover:text-blue-200 transition-colors">
-                  {feature.title}
-                </h3>
-                <p className="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors">
-                  {feature.description}
-                </p>
               </div>
-              
-              {/* Arrow indicator */}
-              <div className="absolute bottom-8 right-8 w-10 h-10 rounded-full bg-white/5 flex items-center justify-center opacity-0 group-hover:opacity-100 group-hover:translate-x-0 translate-x-2 transition-all duration-300">
-                <svg className="w-5 h-5 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d="M5 12h14M12 5l7 7-7 7" />
+
+              {/* Content */}
+              <h3 className="text-xl font-semibold text-white mb-3 group-hover:text-aurora-cyan transition-colors">
+                {feature.title}
+              </h3>
+              <p className="text-secondary leading-relaxed">
+                {feature.description}
+              </p>
+
+              {/* Arrow */}
+              <div className="mt-6 flex items-center gap-2 text-muted group-hover:text-aurora-cyan transition-colors">
+                <span className="text-sm">了解更多</span>
+                <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
               </div>
             </div>
           ))}
         </div>
 
-      {/* Feature screenshots showcase */}
-      <div className="mt-32 relative">
+        {/* Feature Showcase */}
         <FeatureShowcase />
-      </div>
 
-        {/* Unique Advantages section */}
+        {/* Unique Advantages */}
         <div className="mt-32">
-          {/* Section header */}
           <div className="text-center mb-16">
-            <span className="text-sm font-medium text-gray-500 mb-4 block animate-fade-in">独特优势</span>
-            <h2 className="text-4xl md:text-5xl font-semibold text-white mb-6 tracking-tight animate-fade-in-up">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass mb-6">
+              <span className="w-2 h-2 rounded-full bg-aurora-magenta animate-pulse" />
+              <span className="text-sm font-medium text-secondary">独特优势</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 font-heading">
               对比 Cursor/Windsurf/Claude Code
               <br />
-              <span className="text-gray-400">更智能、更强大</span>
+              <span className="gradient-text">更智能、更强大</span>
             </h2>
-            <p className="text-xl text-gray-400 max-w-2xl mx-auto animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
-              10大独特功能，解决AI编程工具的常见痛点，让开发体验更流畅。
+            <p className="text-lg text-secondary max-w-2xl mx-auto">
+              10大独特功能，解决AI编程工具的常见痛点
             </p>
           </div>
 
-          {/* Unique advantage cards */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {uniqueAdvantages.map((advantage, index) => (
-              <div 
+              <div
                 key={index}
-                className="group relative p-8 rounded-3xl bg-white/3 border border-white/5 hover:bg-white/5 hover:border-white/10 transition-all duration-500 animate-fade-in-up"
-                style={{ animationDelay: `${0.1 + index * 0.05}s` }}
+                className="card-premium group animate-fade-in-up"
+                style={{ animationDelay: `${index * 0.05}s` }}
               >
-                {/* Gradient glow on hover */}
-                <div className={`absolute inset-0 rounded-3xl bg-gradient-to-br ${advantage.gradient} opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-xl`} />
-                
-                <div className="relative">
-                  {/* Icon */}
-                  <div className={`w-14 h-14 rounded-2xl bg-gradient-to-br ${advantage.gradient} flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-3 transition-all duration-500`}>
-                    <span className={`text-2xl ${advantage.color}`}>{advantage.icon}</span>
-                  </div>
-                  
-                  {/* Content */}
-                  <h3 className="text-xl font-semibold text-white mb-3 group-hover:text-blue-200 transition-colors">
-                    {advantage.title}
-                  </h3>
-                  <p className="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors">
-                    {advantage.description}
-                  </p>
+                <div className={`w-14 h-14 rounded-2xl bg-gradient-to-br ${advantage.gradient} flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-3 transition-all duration-500`}>
+                  <span className={`text-2xl ${advantage.color}`}>{advantage.icon}</span>
                 </div>
-                
-                {/* Arrow indicator */}
-                <div className="absolute bottom-8 right-8 w-10 h-10 rounded-full bg-white/5 flex items-center justify-center opacity-0 group-hover:opacity-100 group-hover:translate-x-0 translate-x-2 transition-all duration-300">
-                  <svg className="w-5 h-5 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <path d="M5 12h14M12 5l7 7-7 7" />
-                  </svg>
-                </div>
+                <h3 className="text-xl font-semibold text-white mb-3 group-hover:text-aurora-cyan transition-colors">
+                  {advantage.title}
+                </h3>
+                <p className="text-secondary leading-relaxed">
+                  {advantage.description}
+                </p>
               </div>
             ))}
           </div>
@@ -128,7 +131,6 @@ export default function Features() {
   );
 }
 
-// Icon helper component
 function FeatureIcon({ name }: { name: string }) {
   const icons: Record<string, React.ReactNode> = {
     sparkle: (
@@ -166,49 +168,28 @@ function FeatureIcon({ name }: { name: string }) {
   return icons[name] || icons.sparkle;
 }
 
-// Feature showcase with screenshots
 function FeatureShowcase() {
   const [activeTab, setActiveTab] = useState(0);
 
   const tabs = [
-    {
-      id: 'themes',
-      label: '多主题',
-      description: '4套精心设计的主题',
-      image: '/images/feature-themes.png',
-    },
-    {
-      id: 'agent',
-      label: 'AI Agent',
-      description: '三种工作模式',
-      image: '/images/feature-agent.png',
-    },
-    {
-      id: 'terminal',
-      label: '集成终端',
-      description: '完整终端体验',
-      image: '/images/feature-terminal.png',
-    },
-    {
-      id: 'git',
-      label: 'Git 支持',
-      description: '完整的版本控制',
-      image: '/images/feature-git.png',
-    },
+    { id: 'themes', label: '多主题', description: '4套精心设计的主题', image: '/images/feature-themes.png' },
+    { id: 'agent', label: 'AI Agent', description: '三种工作模式', image: '/images/feature-agent.png' },
+    { id: 'terminal', label: '集成终端', description: '完整终端体验', image: '/images/feature-terminal.png' },
+    { id: 'git', label: 'Git 支持', description: '完整的版本控制', image: '/images/feature-git.png' },
   ];
 
   return (
-    <div className="rounded-3xl overflow-hidden border border-white/10 bg-black/50 backdrop-blur-xl">
+    <div className="rounded-3xl overflow-hidden border-glow glass-elevated">
       {/* Tabs */}
-      <div className="flex items-center justify-center gap-2 p-4 border-b border-white/5">
+      <div className="flex items-center justify-center gap-2 p-6 border-b border-border-subtle">
         {tabs.map((tab, index) => (
           <button
             key={tab.id}
             onClick={() => setActiveTab(index)}
-            className={`px-6 py-2.5 rounded-full text-sm font-medium transition-all cursor-pointer ${
+            className={`px-6 py-3 rounded-xl text-sm font-medium transition-all cursor-pointer ${
               activeTab === index
                 ? 'bg-white text-black'
-                : 'bg-white/5 text-gray-400 hover:bg-white/10 hover:text-white'
+                : 'text-secondary hover:text-white hover:bg-surface-tertiary'
             }`}
           >
             {tab.label}
@@ -218,69 +199,21 @@ function FeatureShowcase() {
 
       {/* Screenshot */}
       <div className="p-8">
-        <div className="relative aspect-[16/9] rounded-2xl overflow-hidden border border-white/10 bg-[#0d1117]">
+        <div className="relative aspect-[16/9] rounded-2xl overflow-hidden border border-border-subtle bg-background-elevated">
           <Image
             src={tabs[activeTab].image}
             alt={tabs[activeTab].description}
             fill
-            className="object-contain transition-opacity duration-500"
+            className="object-contain"
           />
-          {/* Overlay gradient */}
-          <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
+          {/* Overlay */}
+          <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent" />
           {/* Caption */}
           <div className="absolute bottom-6 left-6 right-6">
             <h3 className="text-xl font-semibold text-white mb-1">{tabs[activeTab].label}</h3>
-            <p className="text-gray-400">{tabs[activeTab].description}</p>
+            <p className="text-secondary">{tabs[activeTab].description}</p>
           </div>
         </div>
-      </div>
-    </div>
-  );
-}
-
-// Interactive demo component (kept as fallback)
-function InteractiveDemo() {
-  const [demoStep, setDemoStep] = useState(0);
-
-  const demoSteps = [
-    { label: 'Start typing', description: 'AI suggests completions in real-time' },
-    { label: 'Ask AI', description: 'Get explanations and code generation' },
-    { label: 'Refactor', description: 'Smart refactoring with one click' },
-  ];
-
-  return (
-    <div className="rounded-3xl overflow-hidden border border-white/10 bg-black/50 backdrop-blur-xl">
-      <div className="flex items-center justify-between px-6 py-4 border-b border-white/5">
-        <div className="flex items-center gap-4">
-          <div className="flex gap-2">
-            <div className="w-3 h-3 rounded-full bg-red-500/80" />
-            <div className="w-3 h-3 rounded-full bg-yellow-500/80" />
-            <div className="w-3 h-3 rounded-full bg-green-500/80" />
-          </div>
-          <span className="text-sm text-gray-500">demo.adnify.dev</span>
-        </div>
-        <div className="flex gap-2">
-          {demoSteps.map((_, index) => (
-            <button
-              key={index}
-              onClick={() => setDemoStep(index)}
-              className={`w-3 h-3 rounded-full transition-all cursor-pointer ${
-                demoStep === index
-                  ? 'bg-white scale-125'
-                  : 'bg-white/20 hover:bg-white/40'
-              }`}
-            />
-          ))}
-        </div>
-      </div>
-
-      <div className="p-8">
-        <div className="flex items-center gap-4 mb-6">
-          <div className="flex-1 h-px bg-white/10" />
-          <span className="text-sm text-gray-500">{demoSteps[demoStep].label}</span>
-          <div className="flex-1 h-px bg-white/10" />
-        </div>
-        <p className="text-center text-gray-400">{demoSteps[demoStep].description}</p>
       </div>
     </div>
   );
