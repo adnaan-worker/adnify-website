@@ -110,8 +110,8 @@ const config: Config = {
           '100%': { backgroundPosition: '200% 0' },
         },
         'glow-pulse': {
-          '0%, 100%': { opacity: 0.5, transform: 'scale(1)' },
-          '50%': { opacity: 0.8, transform: 'scale(1.05)' },
+          '0%, 100%': { opacity: '0.5', transform: 'scale(1)' },
+          '50%': { opacity: '0.8', transform: 'scale(1.05)' },
         },
         'float-slow': {
           '0%, 100%': { transform: 'translateY(0px) rotate(0deg)' },
